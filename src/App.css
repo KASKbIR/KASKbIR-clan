@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 60px;
+
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: #00ffe1;
+  font-size: 32px;
+  text-shadow: 0 0 15px #00ffe1;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navLinks a:hover {
+  color: #00ffe1;
+}
+
+/* HERO */
+
+.hero {
+  height: 100vh;
+  padding-top: 120px;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.9)
+    ),
+url("./assets/bg.webp");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.heroOverlay h2 {
+  font-size: 72px;
+  margin-top: -120px;
+  color: #00ffe1;
+
+  text-shadow:
+    0 0 10px #00ffe1,
+    0 0 30px #00ffe1;
+
+  animation: glow 2s infinite alternate;
+}
+
+.heroOverlay p {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #ccc;
+}
+
+.heroButtons {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+.heroButtons a {
+  padding: 16px 34px;
+
+  border: 2px solid #00ffe1;
+
+  color: white;
+  text-decoration: none;
+
+  border-radius: 14px;
+
+  transition: 0.3s;
+}
+
+.heroButtons a:hover {
+  background: #00ffe1;
+  color: black;
+
+  box-shadow:
+    0 0 15px #00ffe1,
+    0 0 35px #00ffe1;
+}
+
+/* SECTIONS */
+
+.about,
+.members,
+.recruitment {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about h2,
+.members h2,
+.recruitment h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #00ffe1;
+}
+
+.about p {
+  color: #bbb;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #00ffe1;
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+
+  box-shadow:
+    0 0 20px #00ffe1;
+}
+
+.card h3 {
+  color: #00ffe1;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.card span {
+  color: #666;
+  font-size: 14px;
+}
+
+/* RECRUITMENT */
+
+.recruitment ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.recruitment li {
+  margin-bottom: 16px;
+  color: #ccc;
+  font-size: 18px;
+}
+
+.applyBtn {
+  display: inline-block;
+
+  margin-top: 40px;
+
+  padding: 18px 34px;
+
+  background: #00ffe1;
+  color: black;
+
+  text-decoration: none;
+
+  border-radius: 14px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.applyBtn:hover {
+  transform: scale(1.05);
+
+  box-shadow:
+    0 0 15px #00ffe1,
+    0 0 35px #00ffe1;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar h1 {
+    font-size: 28px;
+  }
+
+  .navLinks {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navLinks a {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding-top: 160px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .heroOverlay h2 {
+    font-size: 42px;
+    margin-top: 0;
+    line-height: 1.1;
+  }
+
+  .heroOverlay p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .about,
+  .members,
+  .gallery,
+  .recruitment {
+    padding: 70px 15px;
+  }
+
+  .about h2,
+  .members h2,
+  .gallery h2,
+  .recruitment h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .galleryGrid img {
+    height: 220px;
+  }
+
+  .recruitment li {
+    font-size: 16px;
+  }
+
+  .applyBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@keyframes glow {
+  from {
+    text-shadow:
+      0 0 10px #00ffe1,
+      0 0 20px #00ffe1;
+  }
+
+  to {
+    text-shadow:
+      0 0 20px #00ffe1,
+      0 0 50px #00ffe1,
+      0 0 80px #00ffe1;
+  }
+}/* GALLERY */
+
+.gallery {
+  padding: 100px 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.gallery h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #00ffe1;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.galleryGrid img {
+  width: 100%;
+  height: 260px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  border: 2px solid #00ffe1;
+
+  transition: 0.3s;
+}
+
+.galleryGrid img:hover {
+  transform: scale(1.03);
+
+  box-shadow:
+    0 0 20px #00ffe1,
+    0 0 40px #00ffe1;
+}
+/* LEGEND */
+
+.legend {
+  margin-top: 40px;
+
+  color: #bfbfbf;
+
+  line-height: 2;
+  font-size: 18px;
+
+  background: rgba(255,255,255,0.03);
+
+  border-left: 3px solid #00ffe1;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 0 20px rgba(0,255,225,0.08);
+}
