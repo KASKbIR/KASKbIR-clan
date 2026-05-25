@@ -1,16 +1,22 @@
 function About() {
   return (
-
     <section className="about">
-
-      <h2>ABOUT CLAN</h2>
+      <h2>О КЛАНЕ</h2>
 
       <p>
-        KASKbIR is an elite PUBG Mobile clan.
+        KASKbIR — клан PUBG Mobile, ориентированный на командную игру,
+        активность, дисциплину и атмосферу киберспорта.
       </p>
 
-    </section>
+      <p>
+        Клановые события, турниры, совместные игры и активная командная работа —
+        часть нашей атмосферы.
+      </p>
 
+      <p className="legend">
+        Говорят, среди холодных степей однажды появился одинокий волк...
+      </p>
+    </section>
   );
 }
 

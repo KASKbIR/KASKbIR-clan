@@ -1,6 +1,4 @@
 import "./App.css";
-import { useState } from "react";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -12,6 +10,22 @@ import Gallery from "./pages/Gallery";
 import Recruitment from "./pages/Recruitment";
 
 function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/members" element={<Members />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/recruitment" element={<Recruitment />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
 
   const [lang, setLang] = useState("ru");
 
