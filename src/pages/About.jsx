@@ -1,20 +1,17 @@
-function About() {
+function About({ lang, t }) {
   return (
     <section className="about">
-      <h2>О КЛАНЕ</h2>
+      <h2>{t[lang].aboutTitle}</h2>
 
-      <p>
-        KASKbIR — клан PUBG Mobile, ориентированный на командную игру,
-        активность, дисциплину и атмосферу киберспорта.
-      </p>
+      <p>{t[lang].aboutText1}</p>
 
-      <p>
-        Клановые события, турниры, совместные игры и активная командная работа —
-        часть нашей атмосферы.
-      </p>
+      <p>{t[lang].aboutText2}</p>
 
-      <p className="legend">
-        Говорят, среди холодных степей однажды появился одинокий волк...
+      <p
+        className="legend"
+        style={{ whiteSpace: "pre-line" }}
+      >
+        {t[lang].legend}
       </p>
     </section>
   );

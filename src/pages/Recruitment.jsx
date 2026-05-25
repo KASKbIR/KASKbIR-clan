@@ -1,12 +1,16 @@
-function Recruitment() {
+function Recruitment({ lang, t }) {
   return (
     <section className="recruitment">
-      <h2>НАБОР В КЛАН ОТКРЫТ</h2>
+
+      <h2>{t[lang].recruitmentTitle}</h2>
 
       <ul>
-        <li>✔ Активный онлайн</li>
-        <li>✔ Наличие микрофона</li>
-        <li>✔ Telegram обязателен</li>
+        <li>{t[lang].req1}</li>
+        <li>{t[lang].req2}</li>
+        <li>{t[lang].req3}</li>
+        <li>{t[lang].req4}</li>
+        <li>{t[lang].req5}</li>
+        <li>{t[lang].req6}</li>
       </ul>
 
       <a
@@ -15,8 +19,9 @@ function Recruitment() {
         rel="noopener noreferrer"
         className="applyBtn"
       >
-        ПОДАТЬ ЗАЯВКУ
+        {t[lang].apply}
       </a>
+
     </section>
   );
 }
