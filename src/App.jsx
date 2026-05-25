@@ -27,7 +27,21 @@ const t = {
 
     recruitmentTitle: "НАБОР В КЛАН ОТКРЫТ",
 
-    apply: "ПОДАТЬ ЗАЯВКУ"
+    apply: "ПОДАТЬ ЗАЯВКУ",
+    leader: "Лидер",
+deputy: "Заместитель",
+
+legend:
+  "Говорят, среди холодных степей однажды появился одинокий волк. Он не искал власти, не подчинялся чужим законам и не склонял голову перед сильными. Многие пытались сломать его, но каждый раз он возвращался ещё сильнее.",
+
+req1: "✔ Активный онлайн",
+req2: "✔ Наличие микрофона",
+req3: "✔ Обязателен Telegram",
+req4: "✔ Адекватное общение",
+req5: "✔ Без политики и религии",
+req6: "✔ Желательна карта смены ника",
+
+elite: "Элита",
   },
 
   en: {
@@ -52,7 +66,21 @@ const t = {
 
     recruitmentTitle: "RECRUITMENT OPEN",
 
-    apply: "APPLY NOW"
+    apply: "APPLY NOW",
+    leader: "Leader",
+
+deputy: "Deputy",
+
+legend:
+  "They say that once, among the cold steppes, a lone wolf appeared. He did not seek power, obey foreign laws, or bow before the strong. Many tried to break him, but each time he returned even stronger.",
+req1: "✔ Active online",
+req2: "✔ Microphone required",
+req3: "✔ Telegram required",
+req4: "✔ Respectful communication",
+req5: "✔ No politics or religion",
+req6: "✔ Nickname change card preferred",
+
+elite: "Elite",
   },
 
   kz: {
@@ -77,7 +105,21 @@ const t = {
 
     recruitmentTitle: "КЛАНҒА ҚАБЫЛДАУ АШЫҚ",
 
-    apply: "ӨТІНІШ БЕРУ"
+    apply: "ӨТІНІШ БЕРУ",
+    leader: "Көшбасшы",
+deputy: "Орынбасар",
+
+legend:
+  "Аңыз бойынша, бір кездері суық далалардың арасында жалғыз қасқыр пайда болған. Ол билік іздемеді, бөтен заңдарға бағынбады және мықтылардың алдында бас имеді. Көптеген адамдар оны сындыруға тырысты, бірақ ол әр жолы бұрынғыдан да күштірек болып оралды.",
+
+req1: "✔ Белсенді онлайн",
+req2: "✔ Микрофон болуы міндетті",
+req3: "✔ Telegram міндетті",
+req4: "✔ Әдепті қарым-қатынас",
+req5: "✔ Саясат пен дінге тыйым салынады",
+req6: "✔ Ник ауыстыру картасы құпталады",
+
+elite: "Элита",
   }
 };
   return (
@@ -130,103 +172,90 @@ const t = {
   </p>
 
   <p className="legend">
-    Говорят, среди холодных степей однажды появился одинокий волк.
-    Он не искал власти, не подчинялся чужим законам и не склонял голову
-    перед сильными. Многие пытались сломать его, но каждый раз он
-    возвращался ещё сильнее.
-
-    Со временем вокруг него начали собираться такие же —
-    верные, опасные и свободные. Так появилась стая KASKbIR.
-
-    Старики говорят:
-    волк становится легендой не тогда, когда побеждает в битве,
-    а тогда, когда за ним идут другие.
-
-    И пока жива стая —
-    имя KASKbIR не исчезнет.
-  </p>
+  {t[lang].legend}
+</p>
 
 </section>
 
-     <section className="members" id="members">
+    <section className="members" id="members">
 
-  <h2>РУКОВОДСТВО КЛАНА</h2>
+  <h2>{t[lang].leaders}</h2>
 
   <div className="cards">
 
     <div className="card">
       <h3>KS乂ChingisXan</h3>
-      <p>Лидер</p>
+      <p>{t[lang].leader}</p>
       <span>UID: 5828989992</span>
     </div>
 
     <div className="card">
       <h3>KS乂TeHbBeTpA</h3>
-      <p>Заместитель</p>
+      <p>{t[lang].deputy}</p>
       <span>UID: 5753457243</span>
     </div>
 
     <div className="card">
       <h3>KS乂KARATEL</h3>
-      <p>Заместитель</p>
+      <p>{t[lang].deputy}</p>
       <span>UID: 5991021949</span>
     </div>
 
     <div className="card">
       <h3>KS乂KaKoCiK</h3>
-      <p>Заместитель</p>
+      <p>{t[lang].deputy}</p>
       <span>UID: 51418110998</span>
     </div>
 
   </div>
 
- <h2 style={{ marginTop: "100px" }}>
-  УЧАСТНИКИ КЛАНА
-</h2>
+  <h2 style={{ marginTop: "100px" }}>
+    {t[lang].clanMembers}
+  </h2>
 
-<div className="cards">
+  <div className="cards">
 
-  <div className="card">
-    <h3>KS乂NURLAN</h3>
-    <p>Elite</p>
-    <span>UID: 52266239504</span>
+    <div className="card">
+      <h3>KS乂NURLAN</h3>
+      <p>{t[lang].elite}</p>
+      <span>UID: 52266239504</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂Alisher133</h3>
+      <p>{t[lang].elite}</p>
+      <span>UID: 5645926746</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂Krisderik</h3>
+      <p>{t[lang].elite}</p>
+      <span>UID: 51697179436</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂ALEkOtOMa</h3>
+      <span>UID: 563094369</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂KAРА</h3>
+      <span>UID: 51418935814</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂ツSOVa</h3>
+      <p>{t[lang].elite}</p>
+      <span>UID: 51507652214</span>
+    </div>
+
+    <div className="card">
+      <h3>KS乂TALANT</h3>
+      <p>{t[lang].elite}</p>
+      <span>UID: 5627992934</span>
+    </div>
+
   </div>
-
-  <div className="card">
-    <h3>KS乂Alisher133</h3>
-    <p>Elite</p>
-    <span>UID: 5645926746</span>
-  </div>
-
-  <div className="card">
-    <h3>KS乂Krisderik</h3>
-    <p>Elite</p>
-    <span>UID: 51697179436</span>
-  </div>
-
-  <div className="card">
-    <h3>KS乂ALEkOtOMa</h3>
-    <span>UID: 563094369</span>
-  </div>
-
-  <div className="card">
-    <h3>KS乂KAРА</h3>
-    <span>UID: 51418935814</span>
-  </div>
-
-  <div className="card">
-    <h3>KS乂ツSOVa</h3>
-    <p>Elite</p>
-    <span>UID: 51507652214</span>
-  </div>
-
-  <div className="card">
-    <h3>KS乂TALANT</h3>
-    <p>Elite</p>
-    <span>UID: 5627992934</span>
-  </div>
-
-</div>
 
 </section>
 
@@ -247,15 +276,15 @@ const t = {
 
 <section className="recruitment" id="recruitment">
 
-        <h2>НАБОР В КЛАН ОТКРЫТ</h2>
+        <h2>{t[lang].recruitmentTitle}</h2>
 
         <ul>
-         <li>✔ Активный онлайн</li>
-<li>✔ Наличие микрофона</li>
-<li>✔ Обязателен Telegram</li>
-<li>✔ Адекватное общение</li>
-<li>✔ Без политики и религии</li>
-<li>✔ Желательна карта смены ника</li>
+         <li>{t[lang].req1}</li>
+<li>{t[lang].req2}</li>
+<li>{t[lang].req3}</li>
+<li>{t[lang].req4}</li>
+<li>{t[lang].req5}</li>
+<li>{t[lang].req6}</li>
   </ul>
 
 <a
@@ -264,7 +293,7 @@ const t = {
   rel="noopener noreferrer"
   className="applyBtn"
 >
-  ПОДАТЬ ЗАЯВКУ
+  {t[lang].apply}
 </a>
 
 </section>
