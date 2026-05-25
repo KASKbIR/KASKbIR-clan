@@ -31,9 +31,22 @@ const t = {
     leader: "Лидер",
 deputy: "Заместитель",
 
-legend:
-  "Говорят, среди холодных степей однажды появился одинокий волк. Он не искал власти, не подчинялся чужим законам и не склонял голову перед сильными. Многие пытались сломать его, но каждый раз он возвращался ещё сильнее.",
+legend: `
+Говорят, среди холодных степей однажды появился одинокий волк.
+Он не искал власти, не подчинялся чужим законам и не склонял голову
+перед сильными. Многие пытались сломать его, но каждый раз он
+возвращался ещё сильнее.
 
+Со временем вокруг него начали собираться такие же —
+верные, опасные и свободные. Так появилась стая KASKbIR.
+
+Старики говорят:
+волк становится легендой не тогда, когда побеждает в битве,
+а тогда, когда за ним идут другие.
+
+И пока жива стая —
+имя KASKbIR не исчезнет.
+`,
 req1: "✔ Активный онлайн",
 req2: "✔ Наличие микрофона",
 req3: "✔ Обязателен Telegram",
@@ -71,8 +84,21 @@ elite: "Элита",
 
 deputy: "Deputy",
 
-legend:
-  "They say that once, among the cold steppes, a lone wolf appeared. He did not seek power, obey foreign laws, or bow before the strong. Many tried to break him, but each time he returned even stronger.",
+legend: `
+They say that once, among the cold steppes, a lone wolf appeared.
+He did not seek power, obey foreign laws, or bow before the strong.
+Many tried to break him, but each time he returned even stronger.
+
+Over time, others began to gather around him —
+loyal, dangerous, and free. Thus the KASKbIR pack was born.
+
+The elders say:
+a wolf becomes a legend not when he wins battles,
+but when others choose to follow him.
+
+And while the pack lives on —
+the name KASKbIR will never disappear.
+`,
 req1: "✔ Active online",
 req2: "✔ Microphone required",
 req3: "✔ Telegram required",
@@ -109,8 +135,22 @@ elite: "Elite",
     leader: "Көшбасшы",
 deputy: "Орынбасар",
 
-legend:
-  "Аңыз бойынша, бір кездері суық далалардың арасында жалғыз қасқыр пайда болған. Ол билік іздемеді, бөтен заңдарға бағынбады және мықтылардың алдында бас имеді. Көптеген адамдар оны сындыруға тырысты, бірақ ол әр жолы бұрынғыдан да күштірек болып оралды.",
+legend: `
+Аңыз бойынша, бір кездері суық далалардың арасында жалғыз қасқыр пайда болған.
+Ол билік іздемеді, бөтен заңдарға бағынбады және мықтылардың алдында бас имеді.
+Көптеген адамдар оны сындыруға тырысты, бірақ ол әр жолы бұрынғыдан да күштірек болып оралды.
+
+Уақыт өте келе оның айнасына өзі сияқты —
+адал, қауіпті әрі еркін жандар жинала бастады.
+Осылайша KASKbIR үйірі пайда болды.
+
+Қариялар айтады:
+қасқыр шайқаста жеңген кезде емес,
+артынан өзгелер ерген кезде аңызға айналады.
+
+Ал үйір өмір сүріп тұрған кезде —
+KASKbIR есімі ешқашан жоғалмайды.
+`,
 
 req1: "✔ Белсенді онлайн",
 req2: "✔ Микрофон болуы міндетті",
