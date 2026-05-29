@@ -1,7 +1,11 @@
 import "./App.css";
 import { useState } from "react";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
@@ -18,12 +22,24 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar lang={lang} setLang={setLang} t={t} />
+
+      <Navbar
+        lang={lang}
+        setLang={setLang}
+        t={t}
+      />
 
       <Routes>
-        <Route path="/" element={<Home lang={lang} t={t} />} />
 
-        <Route path="/about" element={<About lang={lang} t={t} />} />
+        <Route
+          path="/"
+          element={<Home lang={lang} t={t} />}
+        />
+
+        <Route
+          path="/about"
+          element={<About lang={lang} t={t} />}
+        />
 
         <Route
           path="/members"
@@ -39,7 +55,9 @@ function App() {
           path="/recruitment"
           element={<Recruitment lang={lang} t={t} />}
         />
+
       </Routes>
+
     </BrowserRouter>
   );
 }

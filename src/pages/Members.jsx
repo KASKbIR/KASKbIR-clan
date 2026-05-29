@@ -1,82 +1,87 @@
-function Members({ lang, t }) {
+const membersData = [
+  {
+    nickname: "KASKbIR",
+    role: "Leader",
+    status: "ONLINE",
+  },
+
+  {
+    nickname: "Shadow",
+    role: "Co-Leader",
+    status: "ONLINE",
+  },
+
+  {
+    nickname: "Reaper",
+    role: "Sniper",
+    status: "OFFLINE",
+  },
+
+  {
+    nickname: "Vortex",
+    role: "Assault",
+    status: "ONLINE",
+  },
+
+  {
+    nickname: "Ghost",
+    role: "Scout",
+    status: "ONLINE",
+  },
+
+  {
+    nickname: "Blaze",
+    role: "Support",
+    status: "OFFLINE",
+  },
+];
+
+function Members() {
+
   return (
-    <section className="members">
+    <section className="membersPage">
 
-      <h2>{t[lang].leaders}</h2>
+      <div className="membersHeader">
 
-      <div className="cards">
+        <h1>KASKbIR ROSTER</h1>
 
-        <div className="card">
-          <h3>KS乂ChingisXan</h3>
-          <p>{t[lang].leader}</p>
-          <span>UID: 5828989992</span>
-        </div>
-
-        <div className="card">
-          <h3>KS乂TeHbBeTpA</h3>
-          <p>{t[lang].deputy}</p>
-          <span>UID: 5753457243</span>
-        </div>
-
-        <div className="card">
-          <h3>KS乂KARATEL</h3>
-          <p>{t[lang].deputy}</p>
-          <span>UID: 5991021949</span>
-        </div>
-
-        <div className="card">
-          <h3>KS乂KaKoCiK</h3>
-          <p>{t[lang].deputy}</p>
-          <span>UID: 51418110998</span>
-        </div>
+        <p>
+          Elite PUBG Mobile warriors united under one pack.
+        </p>
 
       </div>
 
-      <h2 style={{ marginTop: "100px" }}>
-        {t[lang].clanMembers}
-      </h2>
+      <div className="membersGrid">
 
-      <div className="cards">
+        {membersData.map((member, index) => (
 
-        <div className="card">
-          <h3>KS乂NURLAN</h3>
-          <p>{t[lang].elite}</p>
-          <span>UID: 52266239504</span>
-        </div>
+          <div className="memberCard" key={index}>
 
-        <div className="card">
-          <h3>KS乂Alisher133</h3>
-          <p>{t[lang].elite}</p>
-          <span>UID: 5645926746</span>
-        </div>
+            <div className="avatarGlow"></div>
 
-        <div className="card">
-          <h3>KS乂Krisderik</h3>
-          <p>{t[lang].elite}</p>
-          <span>UID: 51697179436</span>
-        </div>
+            <div className="memberAvatar">
+              {member.nickname.charAt(0)}
+            </div>
 
-        <div className="card">
-          <h3>KS乂ALEkOtOMa</h3>
-          <span>UID: 563094369</span>
-        </div>
+            <h2>{member.nickname}</h2>
 
-        <div className="card">
-          <h3>KS乂KAРА</h3>
-          <span>UID: 51418935814</span>
-        </div>
+            <div className="memberRole">
+              {member.role}
+            </div>
 
-        <div className="card">
-          <h3>KS乂ツSOVa</h3>
-          <p>{t[lang].elite}</p>
-          <span>UID: 51507652214</span>
-        </div>
+            <div
+              className={
+                member.status === "ONLINE"
+                  ? "status online"
+                  : "status offline"
+              }
+            >
+              {member.status}
+            </div>
 
-        <div className="card">
-          <h3>KS乂TALANT</h3>
-          <p>{t[lang].elite}</p>
-          <span>UID: 5627992934</span>
-        </div>
+          </div>
+
+        ))}
 
       </div>
 
