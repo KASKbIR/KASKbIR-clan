@@ -738,16 +738,10 @@ ADAPTIVE
     font-size:64px;
   }
 
-}
-
-  .heroOverlay h1{
-  font-size:64px;
-}
-
   .heroText{
-  font-size:16px;
-  letter-spacing:2px;
-}
+    font-size:16px;
+    letter-spacing:2px;
+  }
 
   .legendCenter{
     padding:50px 30px;
@@ -769,6 +763,7 @@ ADAPTIVE
   .clanMotto::after{
     width:220px;
   }
+}
 /* =========================================
 BURGER MENU
 ========================================= */
