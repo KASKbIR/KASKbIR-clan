@@ -31,7 +31,6 @@ function App() {
       />
 
       <Routes>
-
         <Route
           path="/"
           element={<Home lang={lang} t={t} />}
@@ -44,20 +43,19 @@ function App() {
 
         <Route
           path="/members"
-          element={<Members lang={lang} t={t} />}
+          element={<Members />}
         />
 
         <Route
           path="/gallery"
-          element={<Gallery lang={lang} t={t} />}
+          element={<Gallery />}
         />
 
         <Route
           path="/recruitment"
-          element={<Recruitment lang={lang} t={t} />}
+          element={<Recruitment />}
         />
-
-            </Routes>
+      </Routes>
 
       <Footer
         lang={lang}
