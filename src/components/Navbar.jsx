@@ -8,6 +8,16 @@ function Navbar({ lang, setLang, t }) {
   return (
     <nav className="navbar">
 
+      <div className="navbarLeft">
+
+        <div className="socialLinks">
+          <span>Discord</span>
+          <span>TikTok</span>
+          <span>YouTube</span>
+        </div>
+
+      </div>
+
       <h1>KASKbIR</h1>
 
       <div
@@ -27,27 +37,32 @@ function Navbar({ lang, setLang, t }) {
 
       <div className={`navLinks ${menuOpen ? "showMenu" : ""}`}>
 
-        <Link to="/" onClick={() => setMenuOpen(false)}>
-          {t[lang].home}
-        </Link>
+  <Link to="/" onClick={() => setMenuOpen(false)}>
+    {t[lang].home}
+  </Link>
 
-        <Link to="/about" onClick={() => setMenuOpen(false)}>
-          {t[lang].about}
-        </Link>
+  <Link to="/about" onClick={() => setMenuOpen(false)}>
+    {t[lang].about}
+  </Link>
 
-        <Link to="/members" onClick={() => setMenuOpen(false)}>
-          {t[lang].members}
-        </Link>
+  <Link to="/members" onClick={() => setMenuOpen(false)}>
+    {t[lang].members}
+  </Link>
 
-        <Link to="/gallery" onClick={() => setMenuOpen(false)}>
-          {t[lang].gallery}
-        </Link>
+  <Link to="/gallery" onClick={() => setMenuOpen(false)}>
+    {t[lang].gallery}
+  </Link>
 
-        <Link to="/recruitment" onClick={() => setMenuOpen(false)}>
-          {t[lang].recruitment}
-        </Link>
+  <Link to="/recruitment" onClick={() => setMenuOpen(false)}>
+    {t[lang].recruitment}
+  </Link>
 
-      </div>
+</div>
+
+ <div className="navMotto">
+    <strong>KASKbIR</strong>
+    <span>{t[lang].motto}</span>
+  </div>
 
     </nav>
   );

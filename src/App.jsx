@@ -42,9 +42,14 @@ function App() {
         />
 
         <Route
-          path="/members"
-          element={<Members />}
-        />
+  path="/members"
+  element={
+    <Members
+      lang={lang}
+      t={t}
+    />
+  }
+/>
 
         <Route
           path="/gallery"
@@ -52,9 +57,14 @@ function App() {
         />
 
         <Route
-          path="/recruitment"
-          element={<Recruitment />}
-        />
+  path="/recruitment"
+  element={
+    <Recruitment
+      lang={lang}
+      t={t}
+    />
+  }
+/>
       </Routes>
 
       <Footer

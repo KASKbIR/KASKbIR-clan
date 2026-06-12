@@ -1,67 +1,104 @@
-function Recruitment() {
+import React from "react";
+
+function Recruitment({ lang, t }) {
+
+  const text = t[lang];
 
   return (
     <section className="recruitmentPage">
 
-      <div className="recruitmentContainer">
+      <div className="recruitmentWrapper">
 
-        <div className="recruitmentInfo">
+        <div className="recruitmentCard">
 
-          <h1>JOIN KASKbIR</h1>
+          <h1>{text.recruitmentTitle}</h1>
 
-          <p>
-            Become part of the elite PUBG Mobile wolf pack.
-            Discipline. Loyalty. Domination.
-          </p>
+          <p className="recruitmentIntro">
+  {text.recruitmentIntro}
+</p>
+
+          <h2>{text.requirementsTitle}</h2>
 
           <ul>
-
-            <li>✔ Active PUBG Mobile players</li>
-            <li>✔ Teamplay & communication</li>
-            <li>✔ Respect inside the clan</li>
-            <li>✔ Daily activity preferred</li>
-
-          </ul>
+  <li>✔ {text.req1}</li>
+  <li>✔ {text.req2}</li>
+  <li>✔ {text.req3}</li>
+  <li>✔ {text.req4}</li>
+  <li>✔ {text.req5}</li>
+  <li>✔ {text.req6}</li>
+  <li>✔ {text.req7}</li>
+  <li>✔ {text.req8}</li>
+  <li>✔ {text.req9}</li>
+  <li>✔ {text.req10}</li>
+</ul>
 
         </div>
 
-        <form className="recruitmentForm">
+        <div className="recruitmentCard">
 
-          <input
-            type="text"
-            placeholder="Your Nickname"
-          />
+          <h2>{text.benefitsTitle}</h2>
 
-          <input
-            type="text"
-            placeholder="PUBG ID"
-          />
+          <ul>
+  <li>✔ {text.benefit1}</li>
+  <li>✔ {text.benefit2}</li>
+  <li>✔ {text.benefit3}</li>
+  <li>✔ {text.benefit4}</li>
+  <li>✔ {text.benefit5}</li>
+  <li>✔ {text.benefit6}</li>
+</ul>
 
-          <input
-            type="number"
-            placeholder="Age"
-          />
+          <h2>🌍 {text.internationalTitle}</h2>
 
-          <select>
+          <p>
+  {text.internationalText}
+</p>
 
-            <option>Main Role</option>
-            <option>Assault</option>
-            <option>Sniper</option>
-            <option>Scout</option>
-            <option>Support</option>
+          <h2>💬 {text.reviewsTitle}</h2>
 
-          </select>
+          <div className="reviewCard">
+            <p>"{text.review1}"</p>
+          </div>
 
-          <textarea
-            placeholder="Tell us about yourself..."
-          ></textarea>
+          <div className="reviewCard">
+            <p>"{text.review2}"</p>
+          </div>
 
-          <button type="submit">
-            SEND APPLICATION
-          </button>
+          <div className="reviewCard">
+           <p>"{text.review3}"</p>
+          </div>
 
-        </form>
+        </div>
 
+      </div>
+
+      <div className="joinBlock">
+
+        <h2>{text.joinTitle}</h2>
+
+        <ol>
+  <li>{text.join1}</li>
+  <li>{text.join2}</li>
+  <li>{text.join3}</li>
+</ol>
+
+        <h2>{text.rulesTitle}</h2>
+
+        <p>{text.rulesText1}</p>
+
+        <p>{text.rulesText2}</p>
+
+        <a
+          href="https://t.me/+-krdNtQaKqdiYzQ6"
+          target="_blank"
+          rel="noreferrer"
+          className="telegramButton"
+        >
+          {text.telegramButton}
+        </a>
+
+        <blockquote>
+  {text.quote}
+</blockquote>
       </div>
 
     </section>

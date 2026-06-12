@@ -117,6 +117,69 @@ NAVBAR
 .navLinks a:hover::after{
   width:100%;
 }
+/* =========================================
+SOCIAL LINKS IN NAVBAR
+========================================= */
+
+.socialLinks{
+  display:flex;
+  gap:16px;
+  align-items:center;
+}
+
+.socialLinks span{
+  color:white;
+  cursor:pointer;
+  transition:0.3s ease;
+}
+
+.socialLinks span:hover{
+  color:#00ffee;
+
+  text-shadow:
+    0 0 10px #00ffee;
+}
+
+/* =========================================
+CLAN MOTTO IN NAVBAR
+========================================= */
+
+.navMotto{
+  position:absolute;
+
+  top:70px;
+  right:35px;
+
+  display:flex;
+  flex-direction:column;
+
+  align-items:flex-end;
+
+  z-index:1100;
+}
+
+.navMotto strong{
+  color:#00ffee;
+
+  font-size:32px;
+  font-weight:800;
+
+  text-shadow:
+    0 0 10px #00ffee,
+    0 0 20px #00ffee,
+    0 0 40px #00ffee;
+}
+
+.navMotto span{
+  color:white;
+
+  font-size:14px;
+
+  margin-top:-4px;
+
+  text-shadow:
+    0 0 10px rgba(0,255,238,0.4);
+}
 
 .langSwitcher{
   display:flex;
@@ -267,6 +330,24 @@ height:520px;
     #a855f7,
     #00ffee
   );
+  .heroMotto{
+  margin-top:12px;
+  margin-bottom:25px;
+
+  font-size:32px;
+  font-weight:800;
+
+  color:white;
+
+  text-align:center;
+
+  text-shadow:
+    0 0 10px #00ffee,
+    0 0 20px #00ffee,
+    0 0 40px #00ffee;
+
+  animation:glowPulse 3s ease-in-out infinite;
+}
 
   background-size:300%;
 
@@ -544,7 +625,7 @@ line-height:1.8;
 
 .philosophy{
   flex:1;
-  max-width:220px;
+  max-width:280px;
   min-height:420px;
 
   background:rgba(0,0,0,0.45);
@@ -724,6 +805,11 @@ ADAPTIVE
 
 @media(max-width:768px){
 
+  .heroMotto{
+  font-size:22px;
+  padding:0 20px;
+}
+
   .navbar{
     padding:20px;
     gap:20px;
@@ -800,6 +886,15 @@ BURGER MENU
 
   .burger{
     display:flex;
+    .socialLinks{
+    width:100%;
+    justify-content:center;
+    margin-top:10px;
+  }
+
+  .navMotto{
+    display:none;
+  }
   }
 
   .navLinks{
@@ -1027,6 +1122,23 @@ MEMBERS PAGE
   margin-bottom:20px;
 
   letter-spacing:1px;
+}
+.memberId{
+  color:#9aa0a6;
+  font-size:14px;
+  margin-bottom:14px;
+}
+
+.memberCountry{
+  color:white;
+  margin-top:12px;
+  font-size:15px;
+}
+
+.memberLanguages{
+  color:#d8d8d8;
+  margin-top:8px;
+  font-size:14px;
 }
 
 .status{
@@ -1693,4 +1805,113 @@ body::before{
     transform:translateX(0px);
   }
 
+}
+.recruitmentWrapper{
+max-width:1400px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.recruitmentCard{
+background:rgba(0,0,0,0.55);
+border:1px solid rgba(0,255,238,0.25);
+border-radius:30px;
+padding:40px;
+backdrop-filter:blur(10px);
+}
+
+.recruitmentCard h1,
+.recruitmentCard h2{
+color:#00ffee;
+margin-bottom:20px;
+}
+
+.recruitmentCard h1{
+font-size:54px;
+}
+
+.recruitmentCard p{
+line-height:1.8;
+color:#e5e5e5;
+}
+
+.recruitmentCard ul{
+list-style:none;
+margin-top:20px;
+}
+
+.recruitmentCard li{
+padding:10px 0;
+border-bottom:1px solid rgba(0,255,238,0.15);
+}
+
+.reviewCard{
+margin-top:15px;
+padding:20px;
+border-radius:18px;
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(0,255,238,0.15);
+}
+
+.joinBlock{
+max-width:1100px;
+margin:50px auto 0;
+text-align:center;
+background:rgba(0,0,0,0.55);
+border:1px solid rgba(0,255,238,0.25);
+border-radius:30px;
+padding:50px;
+}
+
+.joinBlock h2{
+color:#00ffee;
+margin-bottom:20px;
+}
+
+.joinBlock ol{
+margin-bottom:30px;
+line-height:2;
+}
+
+.telegramButton{
+display:inline-block;
+margin-top:30px;
+padding:18px 40px;
+border-radius:20px;
+text-decoration:none;
+font-weight:800;
+color:black;
+background:linear-gradient(
+135deg,
+#00ffee,
+#4facfe
+);
+}
+
+.telegramButton:hover{
+transform:translateY(-3px);
+}
+
+.joinBlock blockquote{
+margin-top:40px;
+font-size:22px;
+color:#00ffee;
+font-style:italic;
+}
+
+@media(max-width:900px){
+
+.recruitmentWrapper{
+grid-template-columns:1fr;
+}
+
+.recruitmentCard h1{
+font-size:42px;
+}
+
+.joinBlock{
+padding:35px 25px;
+}
 }
