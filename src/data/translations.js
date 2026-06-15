@@ -111,6 +111,7 @@ member: "Член клана",
 
 kazakhstan: "Казахстан",
 russia: "Россия",
+georgia: "Грузия",
 
 membersTitle: "СОСТАВ KASKbIR",
 membersSubtitle: "Элитные бойцы PUBG Mobile под знаменем одной стаи",
@@ -196,7 +197,6 @@ benefit3: "Clan tournaments and events",
 benefit4: "Support for new players",
 benefit5: "Active Discord and Telegram",
 benefit6: "Opportunity to grow with the team",
-
 internationalTitle: "International Community",
 
 internationalText:
@@ -238,6 +238,7 @@ member: "Clan Member",
 
 kazakhstan: "Kazakhstan",
 russia: "Russia",
+georgia: "Georgia",
 
 membersTitle: "KASKbIR ROSTER",
 membersSubtitle: "Elite PUBG Mobile warriors united under one pack",
@@ -359,6 +360,7 @@ member: "Клан мүшесі",
 
 kazakhstan: "Қазақстан",
 russia: "Ресей",
+georgia: "Грузия",
 
 membersTitle: "KASKbIR ҚҰРАМЫ",
 membersSubtitle: "Бір топқа біріккен PUBG Mobile элиталық жауынгерлері",

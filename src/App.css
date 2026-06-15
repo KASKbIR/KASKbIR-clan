@@ -885,17 +885,18 @@ BURGER MENU
 @media(max-width:768px){
 
   .burger{
-    display:flex;
-    .socialLinks{
-    width:100%;
-    justify-content:center;
-    margin-top:10px;
-  }
+  display:flex;
+}
 
-  .navMotto{
-    display:none;
-  }
-  }
+.socialLinks{
+  width:100%;
+  justify-content:center;
+  margin-top:10px;
+}
+
+.navMotto{
+  display:none;
+}
 
   .navLinks{
     position:fixed;
@@ -1168,18 +1169,46 @@ MEMBERS PAGE
 @media(max-width:768px){
 
   .membersPage{
-    padding:
-      140px 20px 60px;
+    padding:140px 20px 60px;
   }
 
-  .membersHeader h1{
-    font-size:42px;
+  .navbar{
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:15px;
   }
 
-  .membersHeader p{
-    font-size:16px;
+  .navbar h1{
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+    font-size:28px;
   }
 
+  .langSwitcher{
+    order:3;
+    width:100%;
+    justify-content:center;
+    margin-top:10px;
+    margin-left:0;
+  }
+
+  .socialLinks{
+    width:100%;
+    justify-content:center;
+    margin-bottom:10px;
+  }
+
+  .burger{
+    display:flex;
+    position:absolute;
+    left:15px;
+    top:20px;
+  }
+
+  .navMotto{
+    display:none;
+  }
 }
 /* =========================================
 GALLERY PAGE
@@ -1914,4 +1943,53 @@ font-size:42px;
 .joinBlock{
 padding:35px 25px;
 }
+}
+.galleryFolder{
+  margin:25px 0;
+
+  padding:18px 24px;
+
+  background:rgba(0,255,238,0.08);
+
+  border:1px solid rgba(0,255,238,0.25);
+
+  border-radius:15px;
+
+  cursor:pointer;
+
+  color:#00ffee;
+
+  font-size:24px;
+  font-weight:700;
+
+  transition:0.3s ease;
+}
+
+.galleryFolder:hover{
+  background:rgba(0,255,238,0.15);
+
+  transform:translateY(-2px);
+
+  box-shadow:
+    0 0 20px rgba(0,255,238,0.25);
+}
+
+/* Видео */
+
+.videoContainer{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+.galleryVideo{
+  max-width:300px;
+  max-height:550px;
+
+  border-radius:20px;
+
+  border:1px solid rgba(0,255,238,0.3);
+
+  box-shadow:
+    0 0 20px rgba(0,255,238,0.15);
 }

@@ -45,17 +45,17 @@ const membersData = [
     nickname: "KS乂LenaNova么",
     pubgId: "51881804182",
     role: "elite",
-    country: "Россия",
+    country: "russia",
     languages: "RU",
   },
 
   {
-    nickname: "KS乂ALEkOtOMa",
-    pubgId: "563094369",
-    role: "member",
-    country: "Россия",
-    languages: "RU",
-  },
+  nickname: "KS乂ALEkOtOMa",
+  pubgId: "563094369",
+  role: "member",
+  country: "georgia",
+  languages: "RU | KA",
+},
 
   {
     nickname: "KS乂77MAN77",
