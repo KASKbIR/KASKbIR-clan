@@ -1,4 +1,5 @@
 import React from "react";
+import kaskbirAvatar from "../assets/members/kaskbir-avatar.jpg";
 
 const membersData = [
   {
@@ -187,8 +188,12 @@ function Members({ lang, t }) {
             <div className="avatarGlow"></div>
 
             <div className="memberAvatar">
-              🐺
-            </div>
+  <img
+    src={kaskbirAvatar}
+    alt="KASKbIR"
+    className="memberAvatarImage"
+  />
+</div>
 
             <h2>{member.nickname}</h2>
 

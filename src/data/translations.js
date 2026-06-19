@@ -28,14 +28,11 @@ const t = {
 Он не искал власти, не подчинялся чужим законам и не склонял голову
 перед сильными. Многие пытались сломать его, но каждый раз он
 возвращался ещё сильнее.
-
 Со временем вокруг него начали собираться такие же —
 верные, опасные и свободные. Так появилась стая KASKbIR.
-
 Старики говорят:
 волк становится легендой не тогда, когда побеждает в битве,
 а тогда, когда за ним идут другие.
-
 И пока жива стая —
 имя KASKbIR не исчезнет.
 `,
@@ -115,6 +112,38 @@ georgia: "Грузия",
 
 membersTitle: "СОСТАВ KASKbIR",
 membersSubtitle: "Элитные бойцы PUBG Mobile под знаменем одной стаи",
+historyTitle: "📜 История KASKbIR",
+historyPreview:
+  "Начал путь в PUBG Mobile в 2021 году, не думая что игра станет частью долгого пути.",
+historyButton: "Читать полностью",
+historyModalTitle: "📜 История KASKbIR",
+
+historyText1:
+  "В 2022 году появился первый клан — Dark Avalanche. Тогда нас было всего двое: TeHbCoLHcA и TeHbBeTpA.",
+
+historyText2:
+  "Мы играли вместе, изучали игру и постепенно становились сильнее.",
+
+historyText3:
+  "Позже в игре я познакомился с игроками: NP乂KAIRAT, NP乂丹lina и NP乂саня.",
+
+historyText4:
+  "Мы долго играли одной командой и постепенно поняли, что стали настоящими друзьями и надёжными товарищами.",
+
+historyText5:
+  "Позже NP乂KAIRAT предложил переименовать клан. После обсуждений осталось два варианта: KASKbIR и TULPAR.",
+
+historyText6:
+  "Выбор оказался очевидным — KASKbIR.",
+
+historyText7:
+  "Так началась новая глава истории. История KASKbIR продолжается и сегодня.",
+
+historyText8:
+  "Самое интересное в ней — не читать её со стороны, а стать её частью.",
+
+  historySignature:
+  "С уважением, лидер клана KS乂ChingisXan.",
   },
 
   en: {
@@ -144,25 +173,19 @@ membersSubtitle: "Элитные бойцы PUBG Mobile под знаменем 
     legend: `
 They say that among the cold steppes,
 a lone wolf once appeared.
-
 He did not seek power,
 did not obey foreign laws,
 and never bowed before the strong.
-
 Many tried to break him,
 but each time he returned even stronger.
-
 Over time,
 others like him began to gather around him —
 loyal, dangerous and free.
-
 Thus the KASKbIR pack was born.
-
 The elders say:
 a wolf becomes a legend
 not when he wins battles,
 but when others follow him.
-
 And while the pack lives —
 the name KASKbIR will never disappear.
 `,
@@ -242,6 +265,38 @@ georgia: "Georgia",
 
 membersTitle: "KASKbIR ROSTER",
 membersSubtitle: "Elite PUBG Mobile warriors united under one pack",
+historyTitle: "📜 KASKbIR History",
+historyPreview:
+  "The journey began in PUBG Mobile in 2021 without realizing it would become a long story.",
+historyButton: "Read more",
+historyModalTitle: "📜 KASKbIR History",
+
+historyText1:
+  "In 2022, the first clan appeared — Dark Avalanche. At that time there were only two of us: TeHbCoLHcA and TeHbBeTpA.",
+
+historyText2:
+  "We played together, learned the game and gradually became stronger.",
+
+historyText3:
+  "Later I met other players in the game: NP乂KAIRAT, NP乂丹lina and NP乂саня.",
+
+historyText4:
+  "We spent a long time playing as one team and eventually realized that we had become true friends and reliable teammates.",
+
+historyText5:
+  "Later NP乂KAIRAT suggested renaming the clan. After discussions only two options remained: KASKbIR and TULPAR.",
+
+historyText6:
+  "The choice was obvious — KASKbIR.",
+
+historyText7:
+  "Thus a new chapter began. The story of KASKbIR continues to this day.",
+
+historyText8:
+  "The most interesting part is not reading this story, but becoming a part of it.",
+
+  historySignature:
+  "Respectfully, Clan Leader KS乂ChingisXan.",
   },
 
   kz: {
@@ -271,24 +326,18 @@ membersSubtitle: "Elite PUBG Mobile warriors united under one pack",
     legend: `
 Аңыз бойынша,
 суық далаларда жалғыз қасқыр пайда болған.
-
 Ол билік іздемеді,
 ешкімге бағынбады,
 күштілер алдында бас имеді.
-
 Көп адам оны сындырмақ болды,
 бірақ ол әр жолы бұрынғыдан да мықты болып оралды.
-
 Уақыт өте келе
 оның айнасына өзі сияқты —
 еркін, қауіпті және адал жауынгерлер жиналды.
-
 Осылайша KASKbIR тобы құрылды.
-
 Қарттар айтады:
 қасқыр шайқаста жеңгенде емес,
 артынан адамдар ергенде аңызға айналады.
-
 Ал топ тірі тұрғанда —
 KASKbIR аты өшпейді.
 `,
@@ -364,6 +413,38 @@ georgia: "Грузия",
 
 membersTitle: "KASKbIR ҚҰРАМЫ",
 membersSubtitle: "Бір топқа біріккен PUBG Mobile элиталық жауынгерлері",
+historyTitle: "📜 Тарихы\nKASKbIR",
+historyPreview:
+  "PUBG Mobile ойынына 2021 жылы келіп, оның ұзақ жолдың бастамасы боларын білмедім.",
+historyButton: "Толығырақ оқу",
+historyModalTitle: "📜 KASKbIR тарихы",
+
+historyText1:
+  "2022 жылы алғашқы клан — Dark Avalanche құрылды. Ол кезде біз небәрі екі адам едік: TeHbCoLHcA және TeHbBeTpA.",
+
+historyText2:
+  "Біз бірге ойнап, ойынды меңгеріп, біртіндеп күшейе түстік.",
+
+historyText3:
+  "Кейін мен ойын барысында NP乂KAIRAT, NP乂丹lina және NP乂саня ойыншыларымен таныстым.",
+
+historyText4:
+  "Біз ұзақ уақыт бір команда болып ойнадық және уақыт өте келе нағыз достар мен сенімді серіктестерге айналдық.",
+
+historyText5:
+  "Кейін NP乂KAIRAT кланның атауын өзгертуді ұсынды. Талқылаудан кейін екі нұсқа қалды: KASKbIR және TULPAR.",
+
+historyText6:
+  "Таңдау анық болды — KASKbIR.",
+
+historyText7:
+  "Осылайша жаңа тарих басталды. KASKbIR тарихы бүгінге дейін жалғасып келеді.",
+
+historyText8:
+  "Ең қызығы — бұл тарихты оқу емес, оның бір бөлігіне айналу.",
+
+  historySignature:
+  "Құрметпен, KS乂ChingisXan кланының көшбасшысы.",
   },
 };
 

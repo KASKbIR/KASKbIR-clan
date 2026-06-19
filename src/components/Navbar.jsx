@@ -12,7 +12,13 @@ function Navbar({ lang, setLang, t }) {
 
         <div className="socialLinks">
           <span>Discord</span>
-          <span>TikTok</span>
+          <a
+  href="https://www.tiktok.com/@kaskbir6?_r=1&_t=ZS-97IvfeHMZUb"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  TikTok
+</a>
           <span>YouTube</span>
         </div>
 
