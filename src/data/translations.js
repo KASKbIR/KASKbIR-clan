@@ -144,6 +144,95 @@ historyText8:
 
   historySignature:
   "С уважением, лидер клана KS乂ChingisXan.",
+  leaderTitle: "👑 Обращение лидера",
+
+newsTitle: "📢 Новости KASKbIR",
+leaderText1:
+  "KASKbIR — это не просто клан. Это команда игроков, которых объединяют уважение, взаимопомощь и стремление к победе.",
+
+leaderText2:
+  "За годы существования мы прошли через множество испытаний, смену составов и игровых сезонов, но сохранили главное — дух братства и верность нашим принципам.",
+
+leaderText3:
+  "Благодарю каждого, кто был частью нашей истории и продолжает писать её сегодня.",
+
+leaderSignature2:
+  "С уважением, лидер клана KS乂ChingisXan.",
+
+news1:
+  "Открыт набор новых бойцов",
+
+news2:
+  "Обновлён состав клана",
+
+news3:
+  "Добавлена галерея сайта",
+
+  clanAge: "Возраст клана",
+since: "С марта 2019 года",
+
+reviewsTitle: "Отзывы участников",
+reviewsSubtitle: "Что говорят участники KASKbIR о клане.",
+reviewsButton: "Читать отзывы",
+
+reviewsModalTitle: "💬 Отзывы участников",
+
+reviewsText1:
+"KASKbIR — это не просто клан. Это команда людей, которых объединяют уважение, взаимопомощь и любовь к игре.",
+
+reviewsAuthor1:
+"— KS乂ChingisXan",
+
+reviewsText2:
+"Здесь всегда найдётся с кем поиграть, потренироваться и просто хорошо провести время. Мы растём вместе и поддерживаем друг друга.",
+
+reviewsAuthor2:
+"— KS乂ChingisXan",
+
+reviewMember1Name: "KS乂TeHbBeTpA",
+reviewMember1:
+  "В KASKbIR всегда чувствуется поддержка команды. Здесь играют ради побед, но никогда не забывают про уважение друг к другу.",
+
+reviewMember2Name: "KS乂KARATEL",
+reviewMember2:
+  "За время в клане я стал сильнее как игрок. Совместные тренировки и дружная атмосфера мотивируют развиваться.",
+
+reviewMember3Name: "KS乂KaKoCiK",
+reviewMember3:
+  "Самое ценное в KASKbIR — это люди. Здесь всегда помогут, подскажут и никогда не оставят одного.",
+
+reviewMember4Name: "KS乂LenaNova么",
+reviewMember4:
+  "Очень нравится, что в клане дружелюбная атмосфера. Играть вместе интересно и комфортно независимо от опыта.",
+
+reviewMember5Name: "KS乂ALEkOtOMa",
+reviewMember5:
+  "KASKbIR для меня — это команда, где каждый может рассчитывать на поддержку. Здесь действительно ценят каждого участника.",
+
+reviewMember6Name: "KS乂KARAENDI",
+reviewMember6:
+  "В клане отличная организация и дисциплина. Именно это помогает нам становиться сильнее с каждым сезоном.",
+
+reviewMember7Name: "KS乂NURLAN",
+reviewMember7:
+  "Я горжусь тем, что являюсь частью KASKbIR. Здесь можно не только наслаждаться игрой, но и обрести настоящих друзей.",
+
+reviewInviteText:
+  "Играете в KASKbIR? Поделитесь своим мнением о клане! Нам будет приятно узнать ваши впечатления. Не забудьте указать свой игровой ник PUBG MOBILE.",
+
+reviewButton:
+  "Оставить отзыв",
+
+  reviewHint:
+  "Отзыв займёт не больше минуты.",
+
+  recruitReviewInviteText:
+  "Недавно вступили в KASKbIR? Поделитесь своими первыми впечатлениями о клане. При отправке отзыва обязательно укажите свой игровой ник PUBG MOBILE.",
+
+recruitReviewButton:
+  "Оставить отзыв",
+
+  uzbekistan: "Узбекистан",
   },
 
   en: {
@@ -297,6 +386,95 @@ historyText8:
 
   historySignature:
   "Respectfully, Clan Leader KS乂ChingisXan.",
+  leaderTitle: "👑 Leader's Message",
+
+newsTitle: "📢 KASKbIR News",
+leaderText1:
+  "KASKbIR is more than just a clan. It is a team united by respect, mutual support and the desire to achieve victory.",
+
+leaderText2:
+  "Over the years we have gone through many challenges, roster changes and game seasons, but we have preserved the most important thing — the spirit of brotherhood and loyalty to our principles.",
+
+leaderText3:
+  "I thank everyone who has been part of our history and continues to write it today.",
+
+leaderSignature2:
+  "Respectfully, Clan Leader KS乂ChingisXan.",
+
+news1:
+  "Recruitment for new fighters is now open",
+
+news2:
+  "Clan roster has been updated",
+
+news3:
+  "Website gallery has been added",
+
+  clanAge: "Clan Age",
+since: "Since March 2019",
+
+reviewsTitle: "Member Reviews",
+reviewsSubtitle: "What KASKbIR members say about the clan.",
+reviewsButton: "Read Reviews",
+
+reviewsModalTitle: "💬 Member Reviews",
+
+reviewsText1:
+"KASKbIR is more than just a clan. It is a team united by respect, mutual support and a love for the game.",
+
+reviewsAuthor1:
+"— KS乂ChingisXan",
+
+reviewsText2:
+"There is always someone to play and train with. We grow together and support each other.",
+
+reviewsAuthor2:
+"— KS乂ChingisXan",
+
+reviewMember1Name: "KS乂TeHbBeTpA",
+reviewMember1:
+  "KASKbIR always feels like a real team. We play to win while always respecting each other.",
+
+reviewMember2Name: "KS乂KARATEL",
+reviewMember2:
+  "Since joining the clan, I've become a better player. Team practice and a friendly atmosphere inspire me to improve.",
+
+reviewMember3Name: "KS乂KaKoCiK",
+reviewMember3:
+  "The best part of KASKbIR is its people. There is always someone ready to help and support you.",
+
+reviewMember4Name: "KS乂LenaNova么",
+reviewMember4:
+  "I really enjoy the friendly atmosphere. Playing together is always fun, no matter your experience level.",
+
+reviewMember5Name: "KS乂ALEkOtOMa",
+reviewMember5:
+  "KASKbIR is a team where everyone can count on support. Every member is truly valued here.",
+
+reviewMember6Name: "KS乂KARAENDI",
+reviewMember6:
+  "The clan has great organization and discipline. That's what helps us grow stronger every season.",
+
+reviewMember7Name: "KS乂NURLAN",
+reviewMember7:
+  "I'm proud to be part of KASKbIR. It's a place where you can enjoy the game and make real friends.",
+
+reviewInviteText:
+  "Playing with KASKbIR? We'd love to hear your thoughts! Share your experience and don't forget to include your PUBG MOBILE nickname.",
+
+reviewButton:
+  "Leave a Review",
+
+  reviewHint:
+  "It only takes a minute to leave a review.",
+
+  recruitReviewInviteText:
+  "Recently joined KASKbIR? We'd love to hear your first impressions. Please include your PUBG MOBILE nickname when submitting your review.",
+
+recruitReviewButton:
+  "Leave a Review",
+
+  uzbekistan: "Uzbekistan",
   },
 
   kz: {
@@ -445,6 +623,95 @@ historyText8:
 
   historySignature:
   "Құрметпен, KS乂ChingisXan кланының көшбасшысы.",
+  leaderTitle: "👑 Клан басшысының үндеуі",
+
+newsTitle: "📢 KASKbIR жаңалықтары",
+leaderText1:
+  "KASKbIR — жай ғана клан емес. Бұл құрмет, өзара қолдау және жеңіске ұмтылыс біріктірген ойыншылар командасы.",
+
+leaderText2:
+  "Жылдар бойы біз көптеген сынақтардан, құрам өзгерістерінен және ойын маусымдарынан өттік, бірақ ең бастысы — бауырластық рухы мен өз қағидаларымызға адалдықты сақтап қалдық.",
+
+leaderText3:
+  "Біздің тарихымыздың бір бөлігі болған және оны бүгін де жалғастырып жатқан әрбір адамға алғысымды білдіремін.",
+
+leaderSignature2:
+  "Құрметпен, KS乂ChingisXan кланының көшбасшысы.",
+
+news1:
+  "Жаңа ойыншыларды қабылдау ашық",
+
+news2:
+  "Клан құрамы жаңартылды",
+
+news3:
+  "Сайт галереясы қосылды",
+
+  clanAge: "Клан жасы",
+since: "2019 жылдың наурызынан бері",
+
+reviewsTitle: "Қатысушылардың пікірлері",
+reviewsSubtitle: "KASKbIR кланы туралы қатысушылар не дейді.",
+reviewsButton: "Пікірлерді оқу",
+
+reviewsModalTitle: "💬 Қатысушылардың пікірлері",
+
+reviewsText1:
+"KASKbIR — жай ғана клан емес. Бұл құрметке, өзара қолдауға және ойынға деген сүйіспеншілікке негізделген команда.",
+
+reviewsAuthor1:
+"— KS乂ChingisXan",
+
+reviewsText2:
+"Мұнда әрқашан бірге ойнайтын және жаттығатын достар табылады. Біз бірге өсіп, бір-бірімізді қолдаймыз.",
+
+reviewsAuthor2:
+"— KS乂ChingisXan",
+
+reviewMember1Name: "KS乂TeHbBeTpA",
+reviewMember1:
+  "KASKbIR-де әрдайым команданың қолдауы сезіледі. Біз жеңіс үшін ойнаймыз әрі бір-бірімізді құрметтейміз.",
+
+reviewMember2Name: "KS乂KARATEL",
+reviewMember2:
+  "Кланға қосылғаннан бері мен ойыншы ретінде өстім. Бірлескен жаттығулар мен достық орта алға ұмтылдырады.",
+
+reviewMember3Name: "KS乂KaKoCiK",
+reviewMember3:
+  "KASKbIR-дің ең үлкен артықшылығы — адамдар. Мұнда әрқашан көмектесіп, қолдау көрсетеді.",
+
+reviewMember4Name: "KS乂LenaNova么",
+reviewMember4:
+  "Кландағы достық атмосфера өте ұнайды. Тәжірибеге қарамастан бәрімен бірге ойнау қызықты.",
+
+reviewMember5Name: "KS乂ALEkOtOMa",
+reviewMember5:
+  "KASKbIR — әркім қолдау табатын команда. Мұнда әрбір қатысушы бағаланады.",
+
+reviewMember6Name: "KS乂KARAENDI",
+reviewMember6:
+  "Кландағы тәртіп пен ұйымшылдық өте жоғары. Бұл бізді әр маусым сайын күштірек етеді.",
+
+reviewMember7Name: "KS乂NURLAN",
+reviewMember7:
+  "Мен KASKbIR құрамының бір бөлігі болғанымды мақтан тұтамын. Мұнда ойыннан ләззат алып қана қоймай, шынайы достар табуға болады.",
+
+reviewInviteText:
+  "KASKbIR кланында ойнайсыз ба? Өз пікіріңізбен бөлісіңіз! Әсеріңіз біз үшін маңызды. PUBG MOBILE ойынындағы лақап атыңызды көрсетуді ұмытпаңыз.",
+
+reviewButton:
+  "Пікір қалдыру",
+
+  reviewHint:
+  "Пікір қалдыру бір минуттан аспайды.",
+
+  recruitReviewInviteText:
+  "Жақында KASKbIR кланына қосылдыңыз ба? Алғашқы әсеріңізбен бөлісіңіз. Пікір жіберген кезде PUBG MOBILE ойынындағы лақап атыңызды міндетті түрде көрсетіңіз.",
+
+recruitReviewButton:
+  "Пікір қалдыру",
+
+  uzbekistan: "Өзбекстан",
   },
 };
 

@@ -55,18 +55,26 @@ function Recruitment({ lang, t }) {
 
           <h2>💬 {text.reviewsTitle}</h2>
 
-          <div className="reviewCard">
-            <p>"{text.review1}"</p>
-          </div>
+          <div className="reviewAction">
 
-          <div className="reviewCard">
-            <p>"{text.review2}"</p>
-          </div>
+  <p className="reviewActionText">
+    {text.recruitReviewInviteText}
+  </p>
 
-          <div className="reviewCard">
-           <p>"{text.review3}"</p>
-          </div>
+  <a
+    href="https://t.me/KASKbIR_Reviews1_bot"
+    target="_blank"
+    rel="noreferrer"
+    className="telegramButton"
+  >
+    {text.recruitReviewButton}
+  </a>
 
+  <p className="reviewHint">
+    {text.reviewHint}
+  </p>
+
+</div>
         </div>
 
       </div>

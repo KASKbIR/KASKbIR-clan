@@ -1,3 +1,4 @@
+{/* ГАЛЕРЕЯ */}
 import { useState } from "react";
 
 import clanCreate1 from "../assets/glory/clan_create1.jpg";
@@ -17,6 +18,8 @@ import gallery04 from "../assets/screenshots/gallery04.jpg";
 import gallery05 from "../assets/screenshots/gallery05.jpg";
 
 import clanVideo1 from "../assets/videos/clan_video1.mp4";
+import clanVideo2 from "../assets/videos/clan_video2.mp4";
+import ImageViewer from "../components/ImageViewer";
 
 const gloryImages = [
   clanCreate1,
@@ -35,6 +38,7 @@ const screenshots = [
 
 function Gallery() {
   const [openSection, setOpenSection] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const toggleSection = (section) => {
     setOpenSection(
@@ -42,133 +46,181 @@ function Gallery() {
     );
   };
 
+  const openViewer = (image) => {
+    setSelectedImage(image);
+  };
+
   return (
-    <section className="galleryPage">
+    <>
+      <section className="galleryPage">
 
-      <div className="galleryHeader">
-        <h1>KASKbIR GALLERY</h1>
+        <div className="galleryHeader">
+          <h1>KASKbIR GALLERY</h1>
 
-        <p>
-          Moments of glory, loyalty and domination.
-        </p>
-      </div>
-
-      {/* СЛАВНЫЕ МОМЕНТЫ */}
-
-      <div
-        className="galleryFolder"
-        onClick={() => toggleSection("glory")}
-      >
-        {openSection === "glory"
-          ? "📂 Славные моменты"
-          : "📁 Славные моменты"}
-      </div>
-
-      {openSection === "glory" && (
-        <div className="galleryGrid">
-          {gloryImages.map((image, index) => (
-            <div className="galleryCard" key={index}>
-              <img src={image} alt="Clan History" />
-            </div>
-          ))}
+          <p>
+            Moments of glory, loyalty and domination.
+          </p>
         </div>
-      )}
 
-      {/* ТОП-1 */}
+        {/* СЛАВНЫЕ МОМЕНТЫ */}
 
-      <div
-        className="galleryFolder"
-        onClick={() => toggleSection("top1")}
-      >
-        {openSection === "top1"
-          ? "📂 ТОП-1"
-          : "📁 ТОП-1"}
-      </div>
+        <div
+          className="galleryFolder"
+          onClick={() => toggleSection("glory")}
+        >
+          {openSection === "glory"
+            ? "📂 Славные моменты"
+            : "📁 Славные моменты"}
+        </div>
 
-      {openSection === "top1" && (
-  <div className="galleryGrid">
+        {openSection === "glory" && (
+          <div className="galleryGrid">
 
-    <div className="galleryCard">
-      <img src={top1_01} alt="TOP 1" />
+            {gloryImages.map((image, index) => (
 
-      <div className="galleryInfo">
-        <p>🗺 Erangel</p>
-        <p>💀 8 убийств</p>
-        <p>📅 Июнь 2024</p>
-      </div>
-    </div>
+              <div className="galleryCard" key={index}>
 
-    <div className="galleryCard">
-      <img src={top1_02} alt="TOP 1" />
+                <img
+                  src={image}
+                  alt="Clan History"
+                  onClick={() => openViewer(image)}
+                />
 
-      <div className="galleryInfo">
-        <p>🗺 Erangel</p>
-        <p>💀 5 убийств</p>
-        <p>📅 Май 2024</p>
-      </div>
-    </div>
+              </div>
 
-    <div className="galleryCard">
-      <img src={top1_03} alt="TOP 1" />
+            ))}
 
-      <div className="galleryInfo">
-        <p>👑 TOP-1</p>
-      </div>
-    </div>
+          </div>
+        )}
 
-    <div className="galleryCard">
-      <img src={top1_04} alt="TOP 1" />
+        {/* ТОП-1 */}
 
-      <div className="galleryInfo">
-        <p>👑 TOP-1</p>
-      </div>
-    </div>
+        <div
+          className="galleryFolder"
+          onClick={() => toggleSection("top1")}
+        >
+          {openSection === "top1"
+            ? "📂 ТОП-1"
+            : "📁 ТОП-1"}
+        </div>
+
+        {openSection === "top1" && (
+
+          <div className="galleryGrid">
+
+            <div className="galleryCard">
+              <img src={top1_01} alt="TOP 1" />
+
+              <div className="galleryInfo">
+                <p>🗺 Erangel</p>
+                <p>💀 8 убийств</p>
+                <p>📅 Июнь 2024</p>
+              </div>
+            </div>
+
+            <div className="galleryCard">
+              <img src={top1_02} alt="TOP 1" />
+
+              <div className="galleryInfo">
+                <p>🗺 Erangel</p>
+                <p>💀 5 убийств</p>
+                <p>📅 Май 2024</p>
+              </div>
+            </div>
+
+            <div className="galleryCard">
+              <img src={top1_03} alt="TOP 1" />
+
+              <div className="galleryInfo">
+                <p>👑 TOP-1</p>
+              </div>
+            </div>
+
+            <div className="galleryCard">
+              <img src={top1_04} alt="TOP 1" />
+
+              <div className="galleryInfo">
+                <p>👑 TOP-1</p>
+              </div>
+            </div>
+
+          </div>
+
+        )}
+
+        {/* ГАЛЕРЕЯ */}
+
+        <div
+          className="galleryFolder"
+          onClick={() => toggleSection("screens")}
+        >
+          {openSection === "screens"
+            ? "📂 Галерея"
+            : "📁 Галерея"}
+        </div>
+
+        {openSection === "screens" && (
+          <div className="galleryGrid">
+
+            {screenshots.map((image, index) => (
+
+              <div className="galleryCard" key={index}>
+
+                <img
+                  src={image}
+                  alt="KASKbIR Screenshot"
+                  onClick={() => openViewer(image)}
+                />
+
+              </div>
+
+            ))}
+
+          </div>
+        )}
+
+        {/* ВИДЕО */}
+
+<div
+  className="galleryFolder"
+  onClick={() => toggleSection("video")}
+>
+  {openSection === "video"
+    ? "📂 Видео"
+    : "📁 Видео"}
+</div>
+
+{openSection === "video" && (
+  <div className="videoContainer">
+
+    <video controls className="galleryVideo">
+      <source
+        src={clanVideo1}
+        type="video/mp4"
+      />
+      Ваш браузер не поддерживает видео.
+    </video>
+
+    <video controls className="galleryVideo">
+      <source
+        src={clanVideo2}
+        type="video/mp4"
+      />
+      Ваш браузер не поддерживает видео.
+    </video>
 
   </div>
 )}
 
-      {/* ГАЛЕРЕЯ */}
+</section>
 
-      <div
-        className="galleryFolder"
-        onClick={() => toggleSection("screens")}
-      >
-        {openSection === "screens"
-          ? "📂 Галерея"
-          : "📁 Галерея"}
-      </div>
+<ImageViewer
+  image={selectedImage}
+  onClose={() => setSelectedImage(null)}
+/>
 
-      {openSection === "screens" && (
-        <div className="galleryGrid">
-          {screenshots.map((image, index) => (
-            <div className="galleryCard" key={index}>
-              <img src={image} alt="KASKbIR Screenshot" />
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* ВИДЕО */}
-
-      <div
-        className="galleryFolder"
-        onClick={() => toggleSection("video")}
-      >
-        {openSection === "video"
-          ? "📂 Видео"
-          : "📁 Видео"}
-      </div>
-
-      {openSection === "video" && (
-        <div className="videoContainer">
-          <video controls className="galleryVideo">
-            <source src={clanVideo1} type="video/mp4" />
-          </video>
-        </div>
-      )}
-
-    </section>
-  );
+</>
+);
 }
 
 export default Gallery;

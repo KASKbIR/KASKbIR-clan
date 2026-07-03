@@ -1,32 +1,54 @@
 import bg from "../assets/bg.webp";
 
 function Home({ lang, t }) {
+  const news = [
+    {
+      date: "18.06.2026",
+      text: t[lang].news1
+    },
+    {
+      date: "15.06.2026",
+      text: t[lang].news2
+    },
+    {
+      date: "10.06.2026",
+      text: t[lang].news3
+    },
+  ];
+
   return (
-    <section
-      className="hero"
-      style={{
-        backgroundImage: `linear-gradient(
-          rgba(0,0,0,0.7),
-          rgba(0,0,0,0.85)
-        ),
-        url(${bg})`,
-      }}
-    >
-      <div className="heroOverlay">
+  <section
+    className="hero"
+    style={{
+  backgroundImage: `url(${bg})`,
+}}
+  >
+    <div className="heroOverlay">
 
-        <p className="topText">
-  {t[lang].hero}
-</p>
+      <div className="newsBox">
+        <h3>{t[lang].newsTitle}</h3>
 
-<h1>KASKbIR</h1>
-
-<p className="heroText">
-  PUBG MOBILE CLAN
-</p>
-
+        {news.map((item, index) => (
+          <div key={index} className="newsItem">
+            <span>{item.date}</span>
+            <p>{item.text}</p>
+          </div>
+        ))}
       </div>
-    </section>
-  );
+
+      <p className="topText">
+        {t[lang].hero}
+      </p>
+
+      <h1>KASKbIR</h1>
+
+      <p className="heroText">
+        PUBG MOBILE CLAN
+      </p>
+
+    </div>
+  </section>
+);
 }
 
 export default Home;

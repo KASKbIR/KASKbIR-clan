@@ -146,20 +146,20 @@ const membersData = [
     languages: "RU | KZ",
   },
 
-    {
-    nickname: "KS乂KAРА",
-    pubgId: "51418935814",
+      {
+    nickname: "KS乂ДЖОНИ",
+    pubgId: "52364944985",
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
   },
 
   {
-    nickname: "KS乂ДЖОНИ",
-    pubgId: "52364944985",
+    nickname: "KS乂LytiE",
+    pubgId: "52121419871",
     role: "member",
-    country: "kazakhstan",
-    languages: "RU | KZ",
+    country: "uzbekistan",
+    languages: "RU | UZ",
   },
 ];
 
