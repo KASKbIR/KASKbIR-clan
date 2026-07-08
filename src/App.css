@@ -1158,35 +1158,63 @@ MEMBERS PAGE
   .navbar{
     flex-wrap:wrap;
     justify-content:center;
-    padding:15px;
+
+    padding:12px 16px;
+
+    gap:10px;
   }
 
   .navbar h1{
     width:100%;
-    text-align:center;
-    margin-bottom:10px;
-    font-size:28px;
-  }
 
-  .langSwitcher{
-    order:3;
-    width:100%;
-    justify-content:center;
-    margin-top:10px;
-    margin-left:0;
+    text-align:center;
+
+    margin-bottom:4px;
+
+    font-size:24px;
   }
 
   .socialLinks{
+
     width:100%;
+
     justify-content:center;
-    margin-bottom:10px;
+
+    gap:12px;
+
+    margin-bottom:2px;
+
+    font-size:14px;
+  }
+
+  .langSwitcher{
+
+    order:3;
+
+    width:100%;
+
+    justify-content:center;
+
+    gap:8px;
+
+    margin-top:2px;
+  }
+
+  .langSwitcher button{
+
+    padding:4px 8px;
+
+    font-size:13px;
   }
 
   .burger{
+
     display:flex;
+
     position:absolute;
-    left:15px;
-    top:20px;
+
+    top:14px;
+    left:14px;
   }
 
   .navMotto{
