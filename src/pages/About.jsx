@@ -198,76 +198,11 @@ return (
 
 <h3>{t[lang].leaderTitle}</h3>
 
-<div className="reviewsList">
+<p>{t[lang].leaderText1}</p>
+<p>{t[lang].leaderText2}</p>
+<p>{t[lang].leaderText3}</p>
 
-  {/* Отзывы лидера */}
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewsText1}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewsAuthor1}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewsText2}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewsAuthor2}
-    </div>
-  </div>
-
-  {/* Отзывы участников */}
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember1}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember1Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember2}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember2Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember3}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember3Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember4}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember4Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember5}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember5Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember6}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember6Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember7}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember7Name}
-    </div>
-  </div>
-
-</div>
+<p className="historySignature">{t[lang].leaderSignature2}</p>
 
   </div>
 
@@ -326,59 +261,7 @@ return (
 
 </div>
 
-  {/* Отзывы участников */}
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember1}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember1Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember2}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember2Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember3}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember3Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember4}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember4Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember5}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember5Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember6}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember6Name}
-    </div>
-  </div>
-
-  <div className="reviewCard">
-    <p>{t[lang].reviewMember7}</p>
-    <div className="reviewAuthor">
-      {t[lang].reviewMember7Name}
-
-    </div>
-  </div>
-
-</div>
+ </div>
 
   </div>
 

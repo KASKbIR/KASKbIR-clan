@@ -72,17 +72,6 @@ internationalTitle: "Международное сообщество",
 internationalText:
   "Сегодня в KASKbIR играют представители разных стран и национальностей. Нас объединяют не происхождение или язык, а любовь к игре, взаимное уважение и стремление развиваться вместе.",
 
-reviewsTitle: "Мнение участников",
-
-review1:
-  "В KASKbIR всегда найдётся команда для совместной игры и тренировок.",
-
-review2:
-  "Здесь ценят уважение, дисциплину и командную работу.",
-
-review3:
-  "Игроки разных стран играют вместе как одна стая.",
-
 joinTitle: "Как вступить",
 
 join1: "Подать заявку через Telegram",
@@ -141,6 +130,9 @@ historyText7:
 
 historyText8:
   "Самое интересное в ней — не читать её со стороны, а стать её частью.",
+
+  historyText9:
+  "Сегодня KASKbIR — это не просто клан, а настоящая семья, объединённая общей историей и общей целью.",
 
   historySignature:
   "С уважением, лидер клана KS乂ChingisXan.",
@@ -233,6 +225,19 @@ recruitReviewButton:
   "Оставить отзыв",
 
   uzbekistan: "Узбекистан",
+
+  galleryTitle: "KASKbIR GALLERY",
+gallerySubtitle: "Моменты славы, преданности и доминирования.",
+
+folderGlory: "Славные моменты",
+folderTop1: "ТОП-1",
+folderScreens: "Галерея",
+folderVideo: "Видео",
+
+videoNotSupported: "Ваш браузер не поддерживает видео.",
+
+notFoundText: "Страница не найдена.",
+notFoundButton: "Вернуться на главную",
   },
 
   en: {
@@ -314,17 +319,6 @@ internationalTitle: "International Community",
 internationalText:
   "KASKbIR unites players of different countries and nationalities. What brings us together is not language or origin, but respect, teamwork and love for the game.",
 
-reviewsTitle: "Member Opinions",
-
-review1:
-  "There is always a team for matches and training sessions in KASKbIR.",
-
-review2:
-  "Respect, discipline and teamwork are highly valued here.",
-
-review3:
-  "Players from different countries fight as one pack.",
-
 joinTitle: "How to Join",
 
 join1: "Submit your application via Telegram",
@@ -383,6 +377,9 @@ historyText7:
 
 historyText8:
   "The most interesting part is not reading this story, but becoming a part of it.",
+
+  historyText9:
+  "Today, KASKbIR is not just a clan — it is a true family united by a shared history and a common goal.",
 
   historySignature:
   "Respectfully, Clan Leader KS乂ChingisXan.",
@@ -475,6 +472,19 @@ recruitReviewButton:
   "Leave a Review",
 
   uzbekistan: "Uzbekistan",
+
+  galleryTitle: "KASKbIR GALLERY",
+gallerySubtitle: "Moments of glory, loyalty and domination.",
+
+folderGlory: "Glory Moments",
+folderTop1: "TOP-1",
+folderScreens: "Gallery",
+folderVideo: "Video",
+
+videoNotSupported: "Your browser does not support video playback.",
+
+notFoundText: "Page not found.",
+notFoundButton: "Back to Home",
   },
 
   kz: {
@@ -556,12 +566,6 @@ internationalTitle: "Халықаралық қауымдастық",
 internationalText:
   "KASKbIR әртүрлі елдер мен ұлттардың ойыншыларын біріктіреді.",
 
-reviewsTitle: "Қатысушылар пікірі",
-
-review1: "KASKbIR-де әрқашан команда табылады.",
-review2: "Құрмет пен тәртіп жоғары бағаланады.",
-review3: "Әртүрлі елдердің ойыншылары бір топ болып ойнайды.",
-
 joinTitle: "Қалай қосылуға болады",
 
 join1: "Telegram арқылы өтініш беру",
@@ -620,6 +624,9 @@ historyText7:
 
 historyText8:
   "Ең қызығы — бұл тарихты оқу емес, оның бір бөлігіне айналу.",
+
+  historyText9:
+  "Бүгінде KASKbIR — жай ғана клан емес, ортақ тарих пен ортақ мақсатпен біріккен нағыз отбасы.",
 
   historySignature:
   "Құрметпен, KS乂ChingisXan кланының көшбасшысы.",
@@ -712,6 +719,19 @@ recruitReviewButton:
   "Пікір қалдыру",
 
   uzbekistan: "Өзбекстан",
+
+  galleryTitle: "KASKbIR GALLERY",
+gallerySubtitle: "Даңқ, адалдық және үстемдік сәттері.",
+
+folderGlory: "Даңқты сәттер",
+folderTop1: "ТОП-1",
+folderScreens: "Галерея",
+folderVideo: "Бейне",
+
+videoNotSupported: "Сіздің браузеріңіз бейнені қолдамайды.",
+
+notFoundText: "Бет табылмады.",
+notFoundButton: "Басты бетке оралу",
   },
 };
 

@@ -1,4 +1,4 @@
-{/* ГАЛЕРЕЯ */}
+// ГАЛЕРЕЯ
 import { useState } from "react";
 
 import clanCreate1 from "../assets/glory/clan_create1.jpg";
@@ -36,7 +36,9 @@ const screenshots = [
   gallery05,
 ];
 
-function Gallery() {
+function Gallery({ lang, t }) {
+  const text = t[lang];
+
   const [openSection, setOpenSection] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -55,10 +57,10 @@ function Gallery() {
       <section className="galleryPage">
 
         <div className="galleryHeader">
-          <h1>KASKbIR GALLERY</h1>
+          <h1>{text.galleryTitle}</h1>
 
           <p>
-            Moments of glory, loyalty and domination.
+            {text.gallerySubtitle}
           </p>
         </div>
 
@@ -69,8 +71,8 @@ function Gallery() {
           onClick={() => toggleSection("glory")}
         >
           {openSection === "glory"
-            ? "📂 Славные моменты"
-            : "📁 Славные моменты"}
+            ? `📂 ${text.folderGlory}`
+            : `📁 ${text.folderGlory}`}
         </div>
 
         {openSection === "glory" && (
@@ -100,8 +102,8 @@ function Gallery() {
           onClick={() => toggleSection("top1")}
         >
           {openSection === "top1"
-            ? "📂 ТОП-1"
-            : "📁 ТОП-1"}
+            ? `📂 ${text.folderTop1}`
+            : `📁 ${text.folderTop1}`}
         </div>
 
         {openSection === "top1" && (
@@ -109,7 +111,11 @@ function Gallery() {
           <div className="galleryGrid">
 
             <div className="galleryCard">
-              <img src={top1_01} alt="TOP 1" />
+              <img
+                src={top1_01}
+                alt="TOP 1"
+                onClick={() => openViewer(top1_01)}
+              />
 
               <div className="galleryInfo">
                 <p>🗺 Erangel</p>
@@ -119,7 +125,11 @@ function Gallery() {
             </div>
 
             <div className="galleryCard">
-              <img src={top1_02} alt="TOP 1" />
+              <img
+                src={top1_02}
+                alt="TOP 1"
+                onClick={() => openViewer(top1_02)}
+              />
 
               <div className="galleryInfo">
                 <p>🗺 Erangel</p>
@@ -129,7 +139,11 @@ function Gallery() {
             </div>
 
             <div className="galleryCard">
-              <img src={top1_03} alt="TOP 1" />
+              <img
+                src={top1_03}
+                alt="TOP 1"
+                onClick={() => openViewer(top1_03)}
+              />
 
               <div className="galleryInfo">
                 <p>👑 TOP-1</p>
@@ -137,7 +151,11 @@ function Gallery() {
             </div>
 
             <div className="galleryCard">
-              <img src={top1_04} alt="TOP 1" />
+              <img
+                src={top1_04}
+                alt="TOP 1"
+                onClick={() => openViewer(top1_04)}
+              />
 
               <div className="galleryInfo">
                 <p>👑 TOP-1</p>
@@ -155,8 +173,8 @@ function Gallery() {
           onClick={() => toggleSection("screens")}
         >
           {openSection === "screens"
-            ? "📂 Галерея"
-            : "📁 Галерея"}
+            ? `📂 ${text.folderScreens}`
+            : `📁 ${text.folderScreens}`}
         </div>
 
         {openSection === "screens" && (
@@ -181,46 +199,46 @@ function Gallery() {
 
         {/* ВИДЕО */}
 
-<div
-  className="galleryFolder"
-  onClick={() => toggleSection("video")}
->
-  {openSection === "video"
-    ? "📂 Видео"
-    : "📁 Видео"}
-</div>
+        <div
+          className="galleryFolder"
+          onClick={() => toggleSection("video")}
+        >
+          {openSection === "video"
+            ? `📂 ${text.folderVideo}`
+            : `📁 ${text.folderVideo}`}
+        </div>
 
-{openSection === "video" && (
-  <div className="videoContainer">
+        {openSection === "video" && (
+          <div className="videoContainer">
 
-    <video controls className="galleryVideo">
-      <source
-        src={clanVideo1}
-        type="video/mp4"
+            <video controls className="galleryVideo">
+              <source
+                src={clanVideo1}
+                type="video/mp4"
+              />
+              {text.videoNotSupported}
+            </video>
+
+            <video controls className="galleryVideo">
+              <source
+                src={clanVideo2}
+                type="video/mp4"
+              />
+              {text.videoNotSupported}
+            </video>
+
+          </div>
+        )}
+
+      </section>
+
+      <ImageViewer
+        image={selectedImage}
+        onClose={() => setSelectedImage(null)}
       />
-      Ваш браузер не поддерживает видео.
-    </video>
 
-    <video controls className="galleryVideo">
-      <source
-        src={clanVideo2}
-        type="video/mp4"
-      />
-      Ваш браузер не поддерживает видео.
-    </video>
-
-  </div>
-)}
-
-</section>
-
-<ImageViewer
-  image={selectedImage}
-  onClose={() => setSelectedImage(null)}
-/>
-
-</>
-);
+    </>
+  );
 }
 
 export default Gallery;

@@ -1,4 +1,3 @@
-import React from "react";
 import kaskbirAvatar from "../assets/members/kaskbir-avatar.jpg";
 
 const membersData = [

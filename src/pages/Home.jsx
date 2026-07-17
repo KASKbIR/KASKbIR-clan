@@ -20,7 +20,7 @@ function Home({ lang, t }) {
   <section
     className="hero"
     style={{
-  backgroundImage: `url(${bg})`,
+  backgroundImage: `linear-gradient(rgba(0,0,0,0.48), rgba(0,0,0,0.68)), url(${bg})`,
 }}
   >
     <div className="heroOverlay">

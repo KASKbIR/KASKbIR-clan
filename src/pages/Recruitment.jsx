@@ -1,5 +1,3 @@
-import React from "react";
-
 function Recruitment({ lang, t }) {
 
   const text = t[lang];

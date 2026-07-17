@@ -17,6 +17,7 @@ import Gallery from "./pages/Gallery";
 import Recruitment from "./pages/Recruitment";
 
 import t from "./data/translations";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -32,16 +33,16 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
-          element={<Home lang={lang} t={t} />}
-        />
+  path="/"
+  element={<Home lang={lang} t={t} />}
+/>
 
-        <Route
-          path="/about"
-          element={<About lang={lang} t={t} />}
-        />
+<Route
+  path="/about"
+  element={<About lang={lang} t={t} />}
+/>
 
-        <Route
+<Route
   path="/members"
   element={
     <Members
@@ -51,12 +52,17 @@ function App() {
   }
 />
 
-        <Route
-          path="/gallery"
-          element={<Gallery />}
-        />
+<Route
+  path="/gallery"
+  element={
+    <Gallery
+      lang={lang}
+      t={t}
+    />
+  }
+/>
 
-        <Route
+<Route
   path="/recruitment"
   element={
     <Recruitment
@@ -65,7 +71,13 @@ function App() {
     />
   }
 />
-      </Routes>
+
+<Route
+  path="*"
+  element={<NotFound lang={lang} t={t} />}
+/>
+
+</Routes>
 
       <Footer
         lang={lang}
