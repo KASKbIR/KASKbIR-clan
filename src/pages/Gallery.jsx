@@ -19,6 +19,10 @@ import gallery05 from "../assets/screenshots/gallery05.jpg";
 import gallery06 from "../assets/screenshots/gallery06.jpg";
 import gallery07 from "../assets/screenshots/gallery07.jpg";
 import gallery08 from "../assets/screenshots/gallery08.jpg";
+import gallery09 from "../assets/screenshots/gallery09.jpg";
+import gallery10 from "../assets/screenshots/gallery10.jpg";
+import gallery11 from "../assets/screenshots/gallery11.jpg";
+import gallery12 from "../assets/screenshots/gallery12.jpg";
 
 import clanVideo1 from "../assets/videos/clan_video1.mp4";
 import clanVideo2 from "../assets/videos/clan_video2.mp4";
@@ -41,6 +45,10 @@ const screenshots = [
   gallery06,
   gallery07,
   gallery08,
+  gallery09,
+  gallery10,
+  gallery11,
+  gallery12,
 ];
 
 function Gallery({ lang, t }) {
