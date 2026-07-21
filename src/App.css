@@ -2618,6 +2618,8 @@ GALLERY INFO (карточки ТОП-1)
 
   opacity:0;
 
+  pointer-events:none;
+
   transition:0.3s ease;
 }
 

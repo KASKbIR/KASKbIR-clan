@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import darkAvalanche from "../assets/history/dark-avalanche-team.jpg";
 import firstKaskbir from "../assets/history/first-kaskbir-team.jpg";
+import membersData from "../data/members";
 
 function About({ lang, t }) {
 
@@ -52,9 +53,9 @@ return (
   </p>
 
   <p>
-    <strong>{t[lang].membersCount}</strong><br />
-    26 / 60
-  </p>
+  <strong>{t[lang].membersCount}</strong><br />
+  {membersData.length} / 60
+</p>
 
   <p>
     <strong>{t[lang].languages}</strong><br />

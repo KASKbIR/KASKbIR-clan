@@ -1,20 +1,20 @@
 import bg from "../assets/bg.webp";
 
 function Home({ lang, t }) {
-  const news = [
-    {
-      date: "18.06.2026",
-      text: t[lang].news1
-    },
-    {
-      date: "15.06.2026",
-      text: t[lang].news2
-    },
-    {
-      date: "10.06.2026",
-      text: t[lang].news3
-    },
-  ];
+ const news = [
+  {
+    date: "21.07.2026",
+    text: t[lang].news1
+  },
+  {
+    date: "21.07.2026",
+    text: t[lang].news2
+  },
+  {
+    date: "21.07.2026",
+    text: t[lang].news3
+  },
+];
 
   return (
   <section
