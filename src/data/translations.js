@@ -238,6 +238,21 @@ videoNotSupported: "Ваш браузер не поддерживает виде
 
 notFoundText: "Страница не найдена.",
 notFoundButton: "Вернуться на главную",
+
+city_aktau: "Актау",
+city_astana: "Астана",
+city_altai: "Алтайский край, с. Ая",
+city_altai_blagoveshchenka: "Алтайский край, Благовещенка",
+city_altai_novichikha: "Алтайский край, с. Новичиха",
+city_volgograd: "Волгоград",
+city_tbilisi: "Тбилиси",
+city_uralsk: "Уральск",
+city_kokshetau: "Кокшетау",
+city_novosibirsk: "Новосибирск",
+city_almaty: "Алматы",
+city_esik: "Есик",
+city_fergana: "Фергана",
+city_namangan: "Наманган",
   },
 
   en: {
@@ -485,6 +500,21 @@ videoNotSupported: "Your browser does not support video playback.",
 
 notFoundText: "Page not found.",
 notFoundButton: "Back to Home",
+
+city_aktau: "Aktau",
+city_astana: "Astana",
+city_altai: "Altai Krai, Aya village",
+city_altai_blagoveshchenka: "Altai Krai, Blagoveshchenka",
+city_altai_novichikha: "Altai Krai, Novichikha village",
+city_volgograd: "Volgograd",
+city_tbilisi: "Tbilisi",
+city_uralsk: "Uralsk",
+city_kokshetau: "Kokshetau",
+city_novosibirsk: "Novosibirsk",
+city_almaty: "Almaty",
+city_esik: "Esik",
+city_fergana: "Fergana",
+city_namangan: "Namangan",
   },
 
   kz: {
@@ -732,6 +762,21 @@ videoNotSupported: "Сіздің браузеріңіз бейнені қолд�
 
 notFoundText: "Бет табылмады.",
 notFoundButton: "Басты бетке оралу",
+
+city_aktau: "Ақтау",
+city_astana: "Астана",
+city_altai: "Алтай өлкесі, Ая ауылы",
+city_altai_blagoveshchenka: "Алтай өлкесі, Благовещенка",
+city_altai_novichikha: "Алтай өлкесі, Новичиха ауылы",
+city_volgograd: "Волгоград",
+city_tbilisi: "Тбилиси",
+city_uralsk: "Орал",
+city_kokshetau: "Көкшетау",
+city_novosibirsk: "Новосібір",
+city_almaty: "Алматы",
+city_esik: "Есік",
+city_fergana: "Ферғана",
+city_namangan: "Наманган",
   },
 };
 

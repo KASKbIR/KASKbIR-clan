@@ -1,3 +1,26 @@
+import aktau from "../assets/cities/aktau.jpg";
+import aktau1 from "../assets/cities/aktau1.jpg";
+import aktau2 from "../assets/cities/aktau2.jpg";
+import astana from "../assets/cities/astana.jpg";
+import astana1 from "../assets/cities/astana1.jpg";
+import astana2 from "../assets/cities/astana2.jpg";
+import astana3 from "../assets/cities/astana3.jpg";
+import altai from "../assets/cities/altai.jpg";
+import altai1 from "../assets/cities/altai1.jpg";
+import altai2 from "../assets/cities/altai2.jpg";
+import altai3 from "../assets/cities/altai3.jpg";
+import volgograd from "../assets/cities/volgograd.jpg";
+import volgograd1 from "../assets/cities/volgograd1.jpg";
+import tbilisi from "../assets/cities/tbilisi.jpg";
+import uralsk from "../assets/cities/uralsk.jpg";
+import uralsk1 from "../assets/cities/uralsk1.jpg";
+import kokshetau from "../assets/cities/kokshetau.jpg";
+import novosibirsk from "../assets/cities/novosibirsk.jpg";
+import almaty from "../assets/cities/almaty.jpg";
+import esik from "../assets/cities/esik.jpg";
+import fergana from "../assets/cities/fergana.jpg";
+import namangan from "../assets/cities/namangan.jpg";
+
 const membersData = [
   {
     nickname: "KS乂ChingisXan",
@@ -5,6 +28,8 @@ const membersData = [
     role: "leader",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_aktau",
+    cityImage: aktau,
   },
 
   {
@@ -13,6 +38,8 @@ const membersData = [
     role: "deputy",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_aktau",
+    cityImage: aktau1,
   },
 
   {
@@ -21,6 +48,8 @@ const membersData = [
     role: "deputy",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_astana",
+    cityImage: astana,
   },
 
   {
@@ -29,6 +58,8 @@ const membersData = [
     role: "deputy",
     country: "russia",
     languages: "RU",
+    cityKey: "city_altai",
+    cityImage: altai,
   },
 
   {
@@ -37,6 +68,8 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_astana",
+    cityImage: astana1,
   },
 
   {
@@ -45,6 +78,8 @@ const membersData = [
     role: "elite",
     country: "russia",
     languages: "RU",
+    cityKey: "city_volgograd",
+    cityImage: volgograd,
   },
 
   {
@@ -53,6 +88,8 @@ const membersData = [
     role: "member",
     country: "georgia",
     languages: "RU | KA",
+    cityKey: "city_tbilisi",
+    cityImage: tbilisi,
   },
 
   {
@@ -61,6 +98,8 @@ const membersData = [
     role: "member",
     country: "russia",
     languages: "RU",
+    cityKey: "city_volgograd",
+    cityImage: volgograd1,
   },
 
   {
@@ -69,6 +108,8 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_aktau",
+    cityImage: aktau2,
   },
 
   {
@@ -77,6 +118,8 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_astana",
+    cityImage: astana2,
   },
 
   {
@@ -85,6 +128,8 @@ const membersData = [
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_uralsk",
+    cityImage: uralsk1,
   },
 
   {
@@ -93,6 +138,8 @@ const membersData = [
     role: "member",
     country: "russia",
     languages: "RU",
+    cityKey: "city_altai_blagoveshchenka",
+    cityImage: altai2,
   },
 
   {
@@ -101,6 +148,8 @@ const membersData = [
     role: "member",
     country: "russia",
     languages: "RU",
+    cityKey: "city_altai_novichikha",
+    cityImage: altai3,
   },
 
   {
@@ -109,6 +158,18 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_kokshetau",
+    cityImage: kokshetau,
+  },
+
+  {
+    nickname: "KS乂ツSOVa",
+    pubgId: "51507652214",
+    role: "member",
+    country: "russia",
+    languages: "RU",
+    cityKey: "city_novosibirsk",
+    cityImage: novosibirsk,
   },
 
   {
@@ -117,6 +178,8 @@ const membersData = [
     role: "member",
     country: "russia",
     languages: "RU",
+    cityKey: null,
+    cityImage: null,
   },
 
   {
@@ -125,6 +188,8 @@ const membersData = [
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_almaty",
+    cityImage: almaty,
   },
 
   {
@@ -133,6 +198,8 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_esik",
+    cityImage: esik,
   },
 
   {
@@ -141,6 +208,8 @@ const membersData = [
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: null,
+    cityImage: null,
   },
 
   {
@@ -149,6 +218,8 @@ const membersData = [
     role: "member",
     country: "uzbekistan",
     languages: "RU | UZ",
+    cityKey: "city_fergana",
+    cityImage: fergana,
   },
 
   {
@@ -157,6 +228,8 @@ const membersData = [
     role: "member",
     country: "uzbekistan",
     languages: "RU | UZ",
+    cityKey: "city_namangan",
+    cityImage: namangan,
   },
 
   {
@@ -165,6 +238,8 @@ const membersData = [
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_uralsk",
+    cityImage: uralsk,
   },
 
   {
@@ -173,6 +248,8 @@ const membersData = [
     role: "member",
     country: "kazakhstan",
     languages: "RU | KZ",
+    cityKey: "city_astana",
+    cityImage: astana3,
   },
 
   {
@@ -181,6 +258,8 @@ const membersData = [
     role: "member",
     country: "russia",
     languages: "RU",
+    cityKey: "city_altai",
+    cityImage: altai1,
   },
 ];
 
