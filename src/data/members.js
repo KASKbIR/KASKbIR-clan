@@ -20,6 +20,9 @@ import almaty from "../assets/cities/almaty.jpg";
 import esik from "../assets/cities/esik.jpg";
 import fergana from "../assets/cities/fergana.jpg";
 import namangan from "../assets/cities/namangan.jpg";
+import astana4 from "../assets/cities/astana4.jpg";
+import sharypovo from "../assets/cities/sharypovo.jpg";
+
 
 const membersData = [
   {
@@ -260,6 +263,26 @@ const membersData = [
     languages: "RU",
     cityKey: "city_altai",
     cityImage: altai1,
+  },
+
+  {
+    nickname: "KS乂Jerry041",
+    pubgId: "51719186053",
+    role: "member",
+    country: "russia",
+    languages: "RU",
+    cityKey: "city_sharypovo",
+    cityImage: sharypovo,
+  },
+
+ {
+    nickname: "KS乂Bavaria01",
+    pubgId: "5991572172",
+    role: "elite",
+    country: "kazakhstan",
+    languages: "RU | KZ",
+    cityKey: "city_astana",
+    cityImage: astana4,
   },
 ];
 

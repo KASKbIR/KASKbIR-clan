@@ -253,6 +253,8 @@ city_almaty: "Алматы",
 city_esik: "Есик",
 city_fergana: "Фергана",
 city_namangan: "Наманган",
+
+city_sharypovo: "Шарыпово",
   },
 
   en: {
@@ -515,6 +517,8 @@ city_almaty: "Almaty",
 city_esik: "Esik",
 city_fergana: "Fergana",
 city_namangan: "Namangan",
+
+city_sharypovo: "Sharypovo",
   },
 
   kz: {
@@ -777,6 +781,8 @@ city_almaty: "Алматы",
 city_esik: "Есік",
 city_fergana: "Ферғана",
 city_namangan: "Наманган",
+
+city_sharypovo: "Шарыпово",
   },
 };
 
