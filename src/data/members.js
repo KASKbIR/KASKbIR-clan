@@ -22,6 +22,7 @@ import fergana from "../assets/cities/fergana.jpg";
 import namangan from "../assets/cities/namangan.jpg";
 import astana4 from "../assets/cities/astana4.jpg";
 import sharypovo from "../assets/cities/sharypovo.jpg";
+import sharypovo1 from "../assets/cities/sharypovo1.jpg";
 
 
 const membersData = [
@@ -283,6 +284,16 @@ const membersData = [
     languages: "RU | KZ",
     cityKey: "city_astana",
     cityImage: astana4,
+  },
+
+  {
+    nickname: "KS乂НатЯ",
+    pubgId: "52494858043",
+    role: "member",
+    country: "russia",
+    languages: "RU",
+    cityKey: "city_sharypovo",
+    cityImage: sharypovo1,
   },
 ];
 
