@@ -13,16 +13,12 @@ import volgograd from "../assets/cities/volgograd.jpg";
 import volgograd1 from "../assets/cities/volgograd1.jpg";
 import tbilisi from "../assets/cities/tbilisi.jpg";
 import uralsk from "../assets/cities/uralsk.jpg";
-import uralsk1 from "../assets/cities/uralsk1.jpg";
 import kokshetau from "../assets/cities/kokshetau.jpg";
 import novosibirsk from "../assets/cities/novosibirsk.jpg";
 import almaty from "../assets/cities/almaty.jpg";
 import esik from "../assets/cities/esik.jpg";
 import fergana from "../assets/cities/fergana.jpg";
-import namangan from "../assets/cities/namangan.jpg";
 import astana4 from "../assets/cities/astana4.jpg";
-import sharypovo from "../assets/cities/sharypovo.jpg";
-import sharypovo1 from "../assets/cities/sharypovo1.jpg";
 
 
 const membersData = [
@@ -89,7 +85,7 @@ const membersData = [
   {
     nickname: "KS乂ALEkOtOMa",
     pubgId: "563094369",
-    role: "member",
+    role: "elite",
     country: "georgia",
     languages: "RU | KA",
     cityKey: "city_tbilisi",
@@ -124,16 +120,6 @@ const membersData = [
     languages: "RU | KZ",
     cityKey: "city_astana",
     cityImage: astana2,
-  },
-
-  {
-    nickname: "KS乂оpoznany",
-    pubgId: "51581057663",
-    role: "member",
-    country: "kazakhstan",
-    languages: "RU | KZ",
-    cityKey: "city_uralsk",
-    cityImage: uralsk1,
   },
 
   {
@@ -217,23 +203,13 @@ const membersData = [
   },
 
   {
-    nickname: "KS乂LytiE",
+    nickname: "KS乂LytiE2",
     pubgId: "52121419871",
     role: "member",
     country: "uzbekistan",
     languages: "RU | UZ",
     cityKey: "city_fergana",
     cityImage: fergana,
-  },
-
-  {
-    nickname: "KS乂BaaaKeee",
-    pubgId: "51826494941",
-    role: "member",
-    country: "uzbekistan",
-    languages: "RU | UZ",
-    cityKey: "city_namangan",
-    cityImage: namangan,
   },
 
   {
@@ -257,23 +233,13 @@ const membersData = [
   },
 
   {
-    nickname: "KS乂Angel乂",
-    pubgId: "52194256179",
-    role: "member",
+    nickname: "KS乂ASTA",
+    pubgId: "52148808046",
+    role: "deputy",
     country: "russia",
     languages: "RU",
     cityKey: "city_altai",
     cityImage: altai1,
-  },
-
-  {
-    nickname: "KS乂Jerry041",
-    pubgId: "51719186053",
-    role: "member",
-    country: "russia",
-    languages: "RU",
-    cityKey: "city_sharypovo",
-    cityImage: sharypovo,
   },
 
  {
@@ -284,16 +250,6 @@ const membersData = [
     languages: "RU | KZ",
     cityKey: "city_astana",
     cityImage: astana4,
-  },
-
-  {
-    nickname: "KS乂НатЯ",
-    pubgId: "52494858043",
-    role: "member",
-    country: "russia",
-    languages: "RU",
-    cityKey: "city_sharypovo",
-    cityImage: sharypovo1,
   },
 ];
 
