@@ -55,7 +55,7 @@ req5: "Адекватное общение и поведение",
 req6: "Активность в жизни клана",
 req7: "Уважение к соклановцам",
 req8: "Готовность участвовать в турнирах",
-req9: "Карта смены ника (при необходимости)",
+req9: "Карта смены ника",
 req10: "Дружелюбность и дисциплина",
 
 benefitsTitle: "Что получает игрок",
@@ -256,6 +256,7 @@ city_namangan: "Наманган",
 city_pyatigorsk: "Пятигорск",
 city_sharypovo: "Шарыпово",
 city_bugulma: "Бугульма, Татарстан",
+city_kyzylorda: "Кызылорда",
   },
 
   en: {
@@ -321,7 +322,7 @@ req5: "Respectful behavior",
 req6: "Clan activity",
 req7: "Respect for clan members",
 req8: "Willingness to participate in tournaments",
-req9: "Nickname change card (if required)",
+req9: "Nickname change card",
 req10: "Friendliness and discipline",
 
 benefitsTitle: "What You Get",
@@ -521,6 +522,7 @@ city_namangan: "Namangan",
 city_pyatigorsk: "Pyatigorsk",
 city_sharypovo: "Sharypovo",
 city_bugulma: "Bugulma, Tatarstan",
+city_kyzylorda: "Kyzylorda",
   },
 
   kz: {
@@ -786,6 +788,7 @@ city_namangan: "Наманган",
 city_pyatigorsk: "Пятигорск",
 city_sharypovo: "Шарыпово",
 city_bugulma: "Бугульма, Татарстан",
+city_kyzylorda: "Қызылорда",
   },
 };
 

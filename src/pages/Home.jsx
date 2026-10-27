@@ -1,54 +1,28 @@
-import bg from "../assets/bg.webp";
+import membersData from "./members";
 
-function Home({ lang, t }) {
- const news = [
+// Новости KASKbIR на главной. Самые свежие — сверху, показываются первые 3.
+// Чтобы добавить новость: скопируйте блок {...}, поставьте дату и тексты ru / en / kz.
+const count = membersData.length;
+
+const newsData = [
   {
-    date: "21.07.2026",
-    text: t[lang].news1
+    date: "27.10.2026",
+    ru: `Обновлён состав клана: теперь нас ${count}. Добро пожаловать, KS乂SugakRoma!`,
+    en: `Clan roster updated: we are now ${count}. Welcome, KS乂SugakRoma!`,
+    kz: `Клан құрамы жаңартылды: енді біз ${count} адамбыз. Қош келдің, KS乂SugakRoma!`,
   },
   {
-    date: "21.07.2026",
-    text: t[lang].news2
+    date: "27.10.2026",
+    ru: "Обновлены данные участников: новый ник KS乂LUNØRA, новые города и фото",
+    en: "Member info updated: new nickname KS乂LUNØRA, new cities and photos",
+    kz: "Қатысушылар деректері жаңартылды: KS乂LUNØRA жаңа лақап аты, жаңа қалалар мен фото",
   },
   {
-    date: "21.07.2026",
-    text: t[lang].news3
+    date: "27.10.2026",
+    ru: "Набор новых бойцов открыт — подайте заявку через Telegram",
+    en: "Recruitment is open — apply via Telegram",
+    kz: "Жаңа ойыншыларды қабылдау ашық — Telegram арқылы өтініш беріңіз",
   },
 ];
 
-  return (
-  <section
-    className="hero"
-    style={{
-  backgroundImage: `linear-gradient(rgba(0,0,0,0.48), rgba(0,0,0,0.68)), url(${bg})`,
-}}
-  >
-    <div className="heroOverlay">
-
-      <div className="newsBox">
-        <h3>{t[lang].newsTitle}</h3>
-
-        {news.map((item, index) => (
-          <div key={index} className="newsItem">
-            <span>{item.date}</span>
-            <p>{item.text}</p>
-          </div>
-        ))}
-      </div>
-
-      <p className="topText">
-        {t[lang].hero}
-      </p>
-
-      <h1>KASKbIR</h1>
-
-      <p className="heroText">
-        PUBG MOBILE CLAN
-      </p>
-
-    </div>
-  </section>
-);
-}
-
-export default Home;
+export default newsData;

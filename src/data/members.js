@@ -79,7 +79,7 @@ const membersData = [
     role: "elite",
     country: "kazakhstan",
     languages: "RU | KZ",
-    cityKey: null,
+    cityKey: "city_kyzylorda",
     cityImage: null,
   },
 
@@ -264,14 +264,14 @@ const membersData = [
   },
 
   {
-      nickname: "KS乂SugakRoma",
-      pubgId: "51871806642",
-      role: "member",
-      country: "kazakhstan",
-      languages: "RU | KZ",
-      cityKey: "city_aktau",
-      cityImage: aktau3,
-    },
+    nickname: "KS乂SugakRoma",
+    pubgId: "51871806642",
+    role: "member",
+    country: "kazakhstan",
+    languages: "RU | KZ",
+    cityKey: "city_aktau",
+    cityImage: aktau3,
+  },
 
   {
     nickname: "KS乂丹lina",
