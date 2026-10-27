@@ -253,8 +253,9 @@ city_almaty: "Алматы",
 city_esik: "Есик",
 city_fergana: "Фергана",
 city_namangan: "Наманган",
-
+city_pyatigorsk: "Пятигорск",
 city_sharypovo: "Шарыпово",
+city_bugulma: "Бугульма, Татарстан",
   },
 
   en: {
@@ -517,8 +518,9 @@ city_almaty: "Almaty",
 city_esik: "Esik",
 city_fergana: "Fergana",
 city_namangan: "Namangan",
-
+city_pyatigorsk: "Pyatigorsk",
 city_sharypovo: "Sharypovo",
+city_bugulma: "Bugulma, Tatarstan",
   },
 
   kz: {
@@ -781,8 +783,9 @@ city_almaty: "Алматы",
 city_esik: "Есік",
 city_fergana: "Ферғана",
 city_namangan: "Наманган",
-
+city_pyatigorsk: "Пятигорск",
 city_sharypovo: "Шарыпово",
+city_bugulma: "Бугульма, Татарстан",
   },
 };
 
