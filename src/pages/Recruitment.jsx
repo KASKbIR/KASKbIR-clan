@@ -94,7 +94,7 @@ function Recruitment({ lang, t }) {
         <p>{text.rulesText2}</p>
 
         <a
-          href="https://t.me/+-krdNtQaKqdiYzQ6"
+          href="https://t.me/+ravwYObpqHUzYjVi"
           target="_blank"
           rel="noreferrer"
           className="telegramButton"
