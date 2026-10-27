@@ -19,9 +19,9 @@ import novosibirsk from "../assets/cities/novosibirsk.jpg";
 import almaty from "../assets/cities/almaty.jpg";
 import esik from "../assets/cities/esik.jpg";
 import fergana from "../assets/cities/fergana.jpg";
+import kyzylorda from "../assets/cities/kyzylorda.jpg";
 import pyatigorsk from "../assets/cities/pyatigorsk.jpg";
 import bugulma from "../assets/cities/bugulma.jpg";
-import kyzylorda from "../assets/cities/kyzylorda.jpg";
 const membersData = [
   {
     nickname: "KS乂ChingisXan",
@@ -80,7 +80,7 @@ const membersData = [
     country: "kazakhstan",
     languages: "RU | KZ",
     cityKey: "city_kyzylorda",
-    cityImage: null,
+    cityImage: kyzylorda,
   },
 
   {
