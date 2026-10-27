@@ -1,6 +1,7 @@
 import aktau from "../assets/cities/aktau.jpg";
 import aktau1 from "../assets/cities/aktau1.jpg";
 import aktau2 from "../assets/cities/aktau2.jpg";
+import aktau3 from "../assets/cities/aktau3.jpg";
 import astana from "../assets/cities/astana.jpg";
 import astana1 from "../assets/cities/astana1.jpg";
 import astana2 from "../assets/cities/astana2.jpg";
@@ -269,7 +270,7 @@ const membersData = [
       country: "kazakhstan",
       languages: "RU | KZ",
       cityKey: "city_aktau",
-      cityImage: aktau,
+      cityImage: aktau3,
     },
 
   {
